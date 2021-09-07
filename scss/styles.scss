@@ -1,3 +1,13 @@
+// ---------- Pico.css customization --------------------------------------------------
+
+$primary-500: #4caf50;
+$primary-600: #43a047;
+$primary-700: #388e3c;
+
+
+
+// ---------- Pico.css modules --------------------------------------------------
+
 // Config
 @import "variables";
 
@@ -20,7 +30,7 @@
 @import "content/form-checkbox-radio";   // type=checkbox, type=radio, role=switch
 @import "content/form-alt-input-types";  // type=color, type=date, type=file, type=search, ...
 @import "content/table";                 // table, tr, td, ...
-@import "content/code";                  // pre, code, ...
+//@import "content/code";                  // pre, code, ...
 @import "content/miscs";                 // hr, template, [hidden], dialog, canvas
 
 // Components
@@ -34,3 +44,83 @@
 @import "utilities/tooltip";             // data-tooltip
 @import "utilities/accessibility";       // -ms-touch-action, aria-*
 @import "utilities/reduce-motion";       // prefers-reduced-motion
+
+
+
+// ---------- Specific styles --------------------------------------------------
+
+html {
+  scroll-padding-top: calc(var(--spacing) * 6);
+  scroll-behavior: smooth;
+}
+
+// Menu
+body > nav:first-of-type {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--table-border-color);
+  z-index: 100;
+
+  ul {
+    &:first-of-type {
+      margin: 0;
+    }
+
+    margin: var(--spacing);
+    gap: var(--spacing);
+
+    li {
+      padding: 0;
+    }
+  }
+}
+
+// Footer
+body > footer {
+  border-top: 1px solid var(--table-border-color);
+  padding-bottom: var(--spacing);
+
+  > div {
+    grid-column-gap: var(--grid-spacing-horizontal);
+    grid-row-gap: var(--grid-spacing-vertical);
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @if map-get($breakpoints, "lg") {
+      @media (min-width: map-get($breakpoints, "lg")) {
+        grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+      }
+    }
+  }
+}
+
+// Utilities
+
+.float-left {
+  float: left;
+  margin-right: calc(var(--spacing) * 2);
+}
+
+.float-right {
+  float: right;
+  margin-left: calc(var(--spacing) * 2);
+}
+
+.center {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+.grid > img {
+  display: block;
+  margin: var(--spacing) auto;
+}
+
+.clear {
+  clear: both;
+}
