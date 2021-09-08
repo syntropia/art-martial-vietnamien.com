@@ -66,7 +66,7 @@ L’élève fait officiellement partie de l’école à partir de la première b
 
 ## Le nom et le symbole de notre école {#nom-et-symbole}
 
-***Chấn Điện Võ Đường*** est le nom en vietnamien [1] de notre école.
+***Chấn Điện Võ Đường*** est le nom en vietnamien [^1] de notre école.
 
 ![Calligraphie en style d’herbe de Shanshan du nom "Chấn Điện"](chan-dien-shanshan.png "Chấn Điện<br>Calligraphie en style d’herbe de Shanshan")
 {.float-right}
@@ -75,11 +75,19 @@ On peut traduire l’expression *chấn điện võ đường* par "**école d�
 ─ *võ đường* signifie "école (*đường*) [d’art] martial (*võ*)" ;
 ─ *chấn điện* est une expression chinoise qu’on peut traduire mot à mot par "éclair (*điện*) [et] tonnerre (*chấn*)". C’est cette expression qui désigne réellement le nom de l’art pratiqué dans notre école.
 
-Le nom de l’école s’écrit aussi en caractère chinois [2] : 震電武堂 (*zhèndiàn wǔtáng*). Si votre navigateur ne permet pas d’afficher le chinois, en voici une version en image :
+Le nom de l’école s’écrit aussi en caractère chinois [^2] : 震電武堂 (*zhèndiàn wǔtáng*). Si votre navigateur ne permet pas d’afficher le chinois, en voici une version en image :
 
 ![Ecriture en caratères chinois du nom "Chấn Điện"](zhendian.png)
 
-L’expression 震電 zhèndiàn (*chấn điện*) signifie proprement "**tonner et briller d’éclairs**" ; elle se compose de deux caractères riches de sens symboliques. Ainsi, le premier peut aussi signifier "un violent coup de tonnerre ébranlant la terre", "ébranler", "vibration", "foudroyer", "frapper avec la rapidité de la foudre" mais aussi "majesté [3]", "qui en impose" et "inspirer la terreur". Quant au second, s’il a comme sens primordiaux "éclair" et "électricité", il se traduit aussi par « brillant » ou encore « rapide ».
+L’expression 震電 zhèndiàn (*chấn điện*) signifie proprement "**tonner et briller d’éclairs**" ; elle se compose de deux caractères riches de sens symboliques. Ainsi, le premier peut aussi signifier "un violent coup de tonnerre ébranlant la terre", "ébranler", "vibration", "foudroyer", "frapper avec la rapidité de la foudre" mais aussi "majesté [^3]", "qui en impose" et "inspirer la terreur". Quant au second, s’il a comme sens primordiaux "éclair" et "électricité", il se traduit aussi par « brillant » ou encore « rapide ».
+
+
+[^1]: Pour être plus précis, il est en sino-vietnamien : c’est une variante de cette langue datant de l’époque où [la Chine dominait le Vietnam](TODO) dans laquelle les mots sont en fait du chinois prononcé en vietnamien. L’empreinte culturelle du chinois fait qu’encore aujourd’hui de nombreuses expressions et termes, dans les domaines de la culture et des sciences, sont d’origine chinoise. Notre art martial étant sino-vietnamien, il est normal que son nom le soit aussi.
+
+[^2]: Même si les Vietnamiens n’écrivent plus actuellement leur langue en caractères chinois, il l’ont fait pendant des siècles. Du reste, le sino-vietnamien s’est longtemps écrit en caractères chinois.
+
+[^3]: Au sens de "grandeur" et non d’"altesse"
+
 
 
 ### Symbole
