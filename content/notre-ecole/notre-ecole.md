@@ -1,13 +1,13 @@
 ---
 layout: article
 title: Notre école
-#hero: /images/banniere.jpg
-hero: https://source.unsplash.com/DNQ-M93tHmA/3000x1000
+subtitle: Une véritable école traditionnelle
+image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
 nav:
   Présentation: '#presentation'
   Le fondateur: '#le-fondateur'
   Les grades: '#les-grades'
-  Le nom et le symbole de notre école: '#nom-et-symbole'
+  Le symbole: '#nom-et-symbole'
 ---
 
 ## Présentation {#presentation}
