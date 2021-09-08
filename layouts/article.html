@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-theme="dark">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="container-fluid">
+  <nav data-theme="dark" class="container-fluid">
     <ul>
       <li><a href="/" aria-label="Accueil"><img src="/images/logo.png" alt="Logo de l'école Chấn Điện Võ Đường"></a></li>
       <li>
@@ -25,36 +25,26 @@
     </ul>
   </nav>
 
+  <header data-theme="dark" class="hero" {% if image %} style="background-image: var(--bg-gradient), url('{{image}}')" {% endif %}>
+    <div class="container">
+      <hgroup>
+        <h1>{{title}}</h1>
+        <p>{{subtitle}}</p>
+        {% if nav %}
+        <nav>
+          <ul>
+            {% for title,link in nav %}
+            <li><a href="{{link}}">{{title}}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+        {% endif %}
+      </hgroup>
+    </div>
+  </header>
+
   <main class="container">
-    {% if hero %}
-    <header class="hero">
-      <figure>
-        <img src="{{hero}}" alt="">
-      </figure>
-      <h1>{{title}}</h1>
-    </header>
-    {% else %}
-    <header>
-      <h1>{{title}}</h1>
-    </header>
-
-    {% endif %}
-    
-    {% if nav %}
-    <aside>
-      <nav>
-        <ul>
-          {% for title,link in nav %}
-          <li><a href="{{link}}">{{title}}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </aside>
-    {% endif %}
-
-    <article>
       {{content | safe}}
-    </article>
   </main>
 
   <footer>

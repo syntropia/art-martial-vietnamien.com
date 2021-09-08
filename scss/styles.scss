@@ -47,7 +47,9 @@ $primary-700: #388e3c;
 
 
 
-// ---------- Specific styles --------------------------------------------------
+
+
+// ---------- Custom styles --------------------------------------------------
 
 html {
   scroll-padding-top: calc(var(--spacing) * 6);
@@ -76,6 +78,23 @@ body > nav:first-of-type {
     }
   }
 }
+
+// Hero header
+.hero {
+  --bg-gradient: linear-gradient(0deg, black 0%, rgba(0,0,0,0.75) 33%, transparent 80%);
+  background-color: var(--card-background-color);
+  background-image: var(--bg-gradient);
+  background-position: center;
+  background-size: cover;
+  padding: calc(var(--block-spacing-vertical)*4) 0 var(--spacing);
+
+  hgroup > p {
+    color: var(--muted-color);
+    margin-bottom: 0;
+  }
+}
+
+
 
 // Footer
 body > footer {
@@ -110,6 +129,10 @@ body > footer {
 
 .center {
   text-align: center;
+}
+
+small {
+  color: var(--muted-color);
 }
 
 figure {
