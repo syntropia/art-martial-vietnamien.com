@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   let markdownIt = require("markdown-it")({ html: true, typographer: true, quotes: ['«\xA0', '\xA0»', '‘', '’'] })
       .use(require("markdown-it-attrs"))
       .use(require("markdown-it-header-sections"))
+      .use(require("markdown-it-footnote"))
       .use(require("markdown-it-image-figures"), { figcaption: true });
   eleventyConfig.setLibrary("md", markdownIt);
 
