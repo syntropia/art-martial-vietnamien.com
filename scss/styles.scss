@@ -56,6 +56,11 @@ html {
   scroll-behavior: smooth;
 }
 
+iframe {
+  margin-bottom: var(--typography-spacing-vertical);
+}
+
+
 // Menu
 body > nav:first-of-type {
   position: sticky;
