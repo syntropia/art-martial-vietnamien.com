@@ -103,7 +103,7 @@ body > nav:first-of-type {
 
 // Footer
 body > footer {
-  border-top: 1px solid var(--table-border-color);
+  border-top: 1px solid var(--muted-color);
   padding-bottom: var(--spacing);
 
   > div {
@@ -117,6 +117,10 @@ body > footer {
         grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
       }
     }
+
+    h5 {
+      margin-bottom: calc(var(--typography-spacing-vertical) / 4);
+    }
   }
 }
 
@@ -124,12 +128,23 @@ body > footer {
 
 .float-left {
   float: left;
+  max-width: 30%;
   margin-right: calc(var(--spacing) * 2);
 }
 
 .float-right {
   float: right;
+  max-width: 30%;
   margin-left: calc(var(--spacing) * 2);
+}
+
+h1, h2, h3, h4, h5 {
+  clear:both;
+}
+
+body section > h2 {
+  border-bottom: 1px solid var(--muted-color);
+  margin-top: calc(var(--block-spacing-vertical) * 3);
 }
 
 .center {
