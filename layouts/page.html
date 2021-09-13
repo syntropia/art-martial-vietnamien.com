@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+
+{% include "_head.html" %}
+
+<body>
+
+  {% include "_menu.html" %}
+  
+  <main class="container">
+    {{content | safe}}
+  </main>
+
+  {% include "_footer.html" %}
+  
+</body>
+
+</html>
