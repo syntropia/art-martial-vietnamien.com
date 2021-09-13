@@ -25,25 +25,25 @@ $primary-700: #388e3c;
 // Content
 @import "content/typography";            // a, headings, p, ul, blockquote, ...
 @import "content/embedded";              // audio, canvas, iframe, img, svg, video
-@import "content/button";                // button, a[role=button], type=button, type=submit ...
+//@import "content/button";                // button, a[role=button], type=button, type=submit ...
 @import "content/form";                  // input, select, textarea, label, fieldset, legend
 @import "content/form-checkbox-radio";   // type=checkbox, type=radio, role=switch
-@import "content/form-alt-input-types";  // type=color, type=date, type=file, type=search, ...
+//@import "content/form-alt-input-types";  // type=color, type=date, type=file, type=search, ...
 @import "content/table";                 // table, tr, td, ...
 //@import "content/code";                  // pre, code, ...
-@import "content/miscs";                 // hr, template, [hidden], dialog, canvas
+//@import "content/miscs";                 // hr, template, [hidden], dialog, canvas
 
 // Components
-@import "components/accordion";          // details, summary
+//@import "components/accordion";          // details, summary
 @import "components/card";               // article
 @import "components/nav";                // nav
-@import "components/progress";           // progress
+//@import "components/progress";           // progress
 
 // Utilities
-@import "utilities/loading";             // aria-busy=true
-@import "utilities/tooltip";             // data-tooltip
+//@import "utilities/loading";             // aria-busy=true
+//@import "utilities/tooltip";             // data-tooltip
 @import "utilities/accessibility";       // -ms-touch-action, aria-*
-@import "utilities/reduce-motion";       // prefers-reduced-motion
+//@import "utilities/reduce-motion";       // prefers-reduced-motion
 
 
 
@@ -70,6 +70,8 @@ body > nav:first-of-type {
   border-bottom: 1px solid var(--table-border-color);
   z-index: 100;
 
+  height: 4rem;
+
   ul {
     &:first-of-type {
       margin: 0;
@@ -80,8 +82,33 @@ body > nav:first-of-type {
 
     li {
       padding: 0;
+
+      &:first-of-type img {
+        width: 4rem;
+        height: 4rem;
+        max-width: none;        
+      }
     }
   }
+
+  #site-title {
+    display: none;
+
+    small {
+      display: block;
+      font-size: 0.75rem;
+      margin-top: -1.25rem;
+    }
+  }
+
+  @if map-get($breakpoints, "md") {
+    @media (min-width: map-get($breakpoints, "lg")) {
+      #site-title {
+        display: block;
+      }
+    }
+  }
+
 }
 
 // Hero header
@@ -120,6 +147,15 @@ body > footer {
 
     h5 {
       margin-bottom: calc(var(--typography-spacing-vertical) / 4);
+    }
+
+    #site-title-footer {
+      margin-bottom: var(--typography-spacing-vertical);
+      
+      small {
+        display: block;
+        font-size: 0.75rem;
+      }
     }
   }
 }
