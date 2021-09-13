@@ -4,13 +4,10 @@ title: Notre école
 subtitle: Une véritable école traditionnelle
 image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
 nav:
-  Présentation: '#presentation'
   Le fondateur: '#le-fondateur'
   Les grades: '#les-grades'
   Le symbole: '#nom-et-symbole'
 ---
-
-## Présentation {#presentation}
 
 L’école **Chấn Điện Võ Đường** (association *Montpellier Viet Vo Dao*) a été fondée en 2003 par [Adda Keliche](#le-fondateur) dans le but d’enseigner et de promouvoir un art martial vietnamien issu du style [Thanh Long](./todo).
 
