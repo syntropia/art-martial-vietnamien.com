@@ -27,7 +27,7 @@ Depuis septembre 2008, l’école Chấn Điện Võ Đường est affiliée à 
 
 ## Le fondateur {#le-fondateur}
 
-![Adda Keliche en posture de garde](photos_adda_barnus_viet-b3548.jpg "Adda Keliche")
+![Adda Keliche en posture de garde](adda.jpg "Adda Keliche")
 {.float-left}
 
 **Adda Keliche** est expert en arts martiaux (ceinture noire 5<sup>e</sup> dang) et [formateur en gestion de stress et agression](/pro).
