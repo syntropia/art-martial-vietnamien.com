@@ -1,6 +1,12 @@
+const yaml = require("js-yaml");
+
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
+  eleventyConfig.addFilter("json", function(value) {
+    return JSON.stringify(value);
+  });
+
+  eleventyConfig.addDataExtension("yml", contents => yaml.load(contents));
 
   eleventyConfig.setUseGitIgnore(false); // Because content/css is generated, thus in .gitignore
   eleventyConfig.addPassthroughCopy("content/css/*.css");
@@ -21,7 +27,6 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "content",
       includes: "../layouts", // Relative to input
-      data: "data", // Relative to input
       output: "dist",
     }
   }
