@@ -1,0 +1,28 @@
+site:
+  title: Montpellier Viet Vo Dao Pro
+  subtitle: Prévention, sécurité et bien-être
+  logo: /images/logo-pro.png
+  home: /pro
+  stylesheet: styles-pro.css
+
+menu:
+- label: Notre approche
+  url: '#approche'
+- label: Formations
+  url: '#formations'
+- label: Références
+  url: '#references'
+- label: Équipe
+  url: '#equipe'
+- label: Contact
+  url: '#contact'
+
+contact:
+  address: 4, rue François Mireur
+  postal_code: 34070
+  city: Montpellier
+  phone: 06 03 59 27 58
+  email: montpelliervvd@art-martial-vietnamien.com
+  website: www.art-martial-vietnamien.com/pro
+
+subsite: ~

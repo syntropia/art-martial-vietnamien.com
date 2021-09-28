@@ -1,23 +1,9 @@
 <footer data-theme="dark">
-  <article>
-    <header>
-      <a class="logo" href="/" aria-label="Accueil">
-        <img src="{{global.logo}}" alt="Logo de l'école {{global.title}}">
-      </a>
-      <hgroup>
-        <h1 class="title"><a href="/" aria-label="Accueil">{{global.title}}</a></h1>
-        <p class="subtitle from-tablet">{{global.subtitle}}</p>
-      </hgroup>
-    </header>
-    <p>4 rue François Mireur<br>34000 Montpellier</p>
-    <p><a href="{{global.contact.url}}">{{global.contact.label}}</a></p>
-    <footer>
-      <a href="{{global.pro.url}}">{{global.pro.label}}</a>
-    </footer>
-  </article>
 
+  {% include "_main-card.html" %}
+  
   <div class="grid from-desktop">
-    {% for entry in global.menu %}
+    {% for entry in menu %}
     <div>
       <h6><a href="{{entry.url}}">{{entry.label}}</a></h6>
       {% if entry.anchors %}

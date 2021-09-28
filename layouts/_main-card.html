@@ -1,0 +1,19 @@
+<article class="main-card" data-theme="dark">
+  <header>
+    <a class="logo" href="{{site.home}}" aria-label="Accueil">
+      <img src="{{site.logo}}" alt="Logo de l'école {{site.title}}">
+    </a>
+    <hgroup>
+      <h1 class="title"><a href="{{site.home}}" aria-label="Accueil">{{site.title}}</a></h1>
+      <p class="subtitle from-tablet">{{site.subtitle}}</p>
+    </hgroup>
+  </header>
+  <h6>Contact</h6>
+  <p>{{contact.address}}<br>{{contact.postal_code}} {{contact.city}}</p>
+  <p>{{contact.phone}}<br>{{contact.email}}<br>{{contact.website}}</p>
+  {% if subsite %}
+  <footer>
+    <a href="{{subsite.url}}">{{subsite.label}}</a>
+  </footer>
+  {% endif %}
+</article>

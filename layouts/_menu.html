@@ -1,14 +1,14 @@
 <nav data-theme="dark" class="container-fluid">
   <ul>
-    <li><a href="/" aria-label="Accueil"><img src="{{global.logo}}" alt="Logo de l'école {{global.title}}"></a>
+    <li><a href="{{site.home}}" aria-label="Accueil"><img src="{{site.logo}}" alt="Logo de l'école {{site.title}}"></a>
     </li>
     <li id="site-title">
-      <h1><a href="/" aria-label="Accueil">{{global.title}}</a></h1>
-      <small class="from-tablet">{{global.subtitle}}</small>
+      <h1><a href="{{site.home}}" aria-label="Accueil">{{site.title}}</a></h1>
+      <small class="from-tablet">{{site.subtitle}}</small>
     </li>
   </ul>
   <ul class="from-tablet">
-    {% for entry in global.menu %}
+    {% for entry in menu %}
     <li><a href="{{entry.url}}">{{entry.label}}</a></li>
     {% endfor %}
   </ul>
@@ -23,7 +23,7 @@
   </ul>
 </nav>
 
-<div id="mobile-menu" data-theme="light">
+<div id="mobile-menu">
   <a id="close-menu-button" class="float-right" role="button" href="#close-menu"
     onclick="self.location.replace('#close-menu')">
     <svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" stroke="white" stroke-width="2">
@@ -34,11 +34,11 @@
     <nav>
       <ul>
         <li>
-          <h4><a href="/">Accueil</a></h4>
+          <h4><a href="{{site.home}}">Accueil</a></h4>
         </li>
       </ul>
 
-      {% for entry in global.menu%}
+      {% for entry in menu%}
       <ul>
         <li>
           <h4><a href="{{entry.url}}">{{entry.label}}</a></h4>
@@ -50,10 +50,10 @@
       {% endfor %}
       <ul>
         <li>
-          <h4><a href="{{global.contact.url}}">{{global.contact.label}}</a></h4>
+          <h4><a href="{{contact.url}}">{{contact.label}}</a></h4>
         </li>
         <li>
-          <h4><a href="{{global.pro.url}}">{{global.pro.label}}</a></h4>
+          <h4><a href="{{pro.url}}">{{pro.label}}</a></h4>
         </li>
       </ul>
     </nav>
