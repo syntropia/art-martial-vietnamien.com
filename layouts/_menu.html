@@ -1,16 +1,61 @@
-  <nav data-theme="dark" class="container-fluid">
-    <ul>
-      <li><a href="/" aria-label="Accueil"><img src="/images/logo.png" alt="Logo de l'école Chấn Điện Võ Đường"></a>
-      </li>
-      <li id="site-title">
-        <h4><a href="/" aria-label="Accueil">Chấn Điện Võ Đường</a></h4>
-        <small>&Eacute;cole traditionnelle d'arts martiaux vietnamiens</small>
-      </li>
-    </ul>
-    <ul>
-      <li><a href="/notre-ecole">Notre école</a></li>
-      <li><a href="/notre-pratique">Notre pratique</a></li>
-      <li><a href="/informations-pratiques">Horaires &amp; lieux</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </nav>
+<nav data-theme="dark" class="container-fluid">
+  <ul>
+    <li><a href="/" aria-label="Accueil"><img src="{{global.logo}}" alt="Logo de l'école {{global.title}}"></a>
+    </li>
+    <li id="site-title">
+      <h1><a href="/" aria-label="Accueil">{{global.title}}</a></h1>
+      <small class="from-tablet">{{global.subtitle}}</small>
+    </li>
+  </ul>
+  <ul class="from-tablet">
+    {% for entry in global.menu %}
+    <li><a href="{{entry.url}}">{{entry.label}}</a></li>
+    {% endfor %}
+  </ul>
+  <ul class="to-tablet">
+    <li><a id="mobile-menu-button" href="#mobile-menu" onclick="self.location.replace('#mobile-menu')">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24" id="menu-icon">
+          <rect y="7" width="24" height="3"></rect>
+          <rect y="15" width="24" height="3"></rect>
+          <rect y="23" width="24" height="3"></rect>
+        </svg>
+      </a></li>
+  </ul>
+</nav>
+
+<div id="mobile-menu" data-theme="light">
+  <a id="close-menu-button" class="float-right" role="button" href="#close-menu"
+    onclick="self.location.replace('#close-menu')">
+    <svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" stroke="white" stroke-width="2">
+      <line x1="0" y1="0" x2="16" y2="16"/>
+      <line x1="0" y1="16" x2="16" y2="0"/>
+    </svg> </a>
+  <aside>
+    <nav>
+      <ul>
+        <li>
+          <h4><a href="/">Accueil</a></h4>
+        </li>
+      </ul>
+
+      {% for entry in global.menu%}
+      <ul>
+        <li>
+          <h4><a href="{{entry.url}}">{{entry.label}}</a></h4>
+        </li>
+        {% for anchor_label, anchor_url in entry.anchors %}
+        <li><a href="{{entry.url}}#{{anchor_url}}">{{anchor_label}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+      <ul>
+        <li>
+          <h4><a href="{{global.contact.url}}">{{global.contact.label}}</a></h4>
+        </li>
+        <li>
+          <h4><a href="{{global.pro.url}}">{{global.pro.label}}</a></h4>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+</div>
