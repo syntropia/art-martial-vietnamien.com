@@ -1,0 +1,285 @@
+
+// Bugfix in vertical navs
+aside {
+  nav {
+    ol,
+    ul {
+      &:first-of-type {
+        margin-left: 0;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+
+// ---------- Custom styles --------------------------------------------------
+
+html {
+  scroll-padding-top: calc(var(--spacing) * 6);
+  scroll-behavior: smooth;
+  --menu-height: 4rem;
+  --spacing-large: calc(var(--spacing)*2);
+  --spacing-small: calc(var(--spacing)/2);
+}
+
+iframe {
+  margin-bottom: var(--typography-spacing-vertical);
+}
+
+
+
+// Responsive helpers ----------
+
+@if map-get($breakpoints, "lg") {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    .to-tablet {
+      display: none !important;
+    }
+  }
+}
+
+@if map-get($breakpoints, "md") {
+  @media (max-width: map-get($breakpoints, "md")) {
+    .from-tablet {
+      display: none !important;
+    }
+  }
+}
+
+@if map-get($breakpoints, "lg") {
+  @media (max-width: map-get($breakpoints, "lg")) {
+    .from-desktop {
+      display: none !important;
+    }
+  }
+}
+
+
+
+// Menu ----------
+
+body > nav:first-of-type {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--table-border-color);
+  z-index: 100;
+
+  height: var(--menu-height);
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  ul {
+    &:first-of-type {
+      margin: 0;
+    }
+
+    margin: var(--spacing);
+    gap: var(--spacing);
+
+    li {
+      padding: 0;
+
+      &:first-of-type img {
+        width: var(--menu-height);
+        height: var(--menu-height);
+        max-width: none;        
+      }
+    }
+  }
+
+  #site-title {
+    small {
+      display: block;
+      font-size: 0.75rem;
+      margin-top: -1.25rem;
+    }
+  }
+}
+
+
+
+// Mobile menu ----------
+
+#mobile-menu {
+  z-index: 1000;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  right: -50%; 
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  background-color: $grey-900;
+  transition: all 0.3s ease-out;
+
+  > a[role="button"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  aside {
+    padding: var(--spacing-small) var(--spacing);
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    ul {
+      margin-top: 0px;
+      margin-bottom: var(--spacing);
+    }
+  }
+}
+
+#mobile-menu:target {
+  visibility: visible;
+  opacity: 1;
+  right: 0px;
+}
+
+
+
+// Hero header ----------
+
+.hero {
+  --bg-gradient: linear-gradient(0deg, black 0%, rgba(0,0,0,0.75) 33%, transparent 80%);
+  background-color: var(--card-background-color);
+  background-image: var(--bg-gradient);
+  background-position: center;
+  background-size: cover;
+  padding: calc(var(--block-spacing-vertical)*4) 0 var(--spacing);
+
+  hgroup > p {
+    color: var(--muted-color);
+    margin-bottom: 0;
+  }
+}
+
+
+
+// Main card ----------
+
+.main-card {
+  margin: 0;
+
+  header {
+    padding: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+
+    .logo {
+      flex: none;
+    }
+
+    hgroup {
+      margin: 0;
+      padding: 0.25rem 1rem;
+      p {
+        margin: 0;
+      }
+      .title {
+        font-size: 1.25rem;
+      }
+      .subtitle {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  footer {
+    margin-top: var(--spacing);
+    padding-top: var(--spacing);
+    padding-bottom: var(--spacing);
+  }
+}
+
+
+
+// Footer ----------
+
+body > footer {
+  background-color: var(--background-color);
+  border-top: 1px solid var(--muted-color);
+  padding: var(--spacing-large);
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+
+  h6 {
+    margin-bottom: var(--spacing-small);
+  }
+
+  .main-card {
+    flex: 3 1;
+  }
+
+  div.grid {
+    flex: 5 0;
+    --grid-spacing-horizontal: 3rem;
+  }
+}
+
+
+
+
+
+// Utilities ----------
+
+.float-left {
+  float: left;
+  max-width: 30%;
+  margin-right: var(--spacing-large);
+}
+
+.float-right {
+  float: right;
+  max-width: 30%;
+  margin-left: var(--spacing-large);
+}
+
+.clear {
+  clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+  clear: both;
+}
+
+body section > h2 {
+  border-bottom: 1px solid var(--muted-color);
+  margin-top: calc(var(--block-spacing-vertical) * 3);
+}
+
+.center {
+  text-align: center;
+}
+
+small {
+  color: var(--muted-color);
+}
+
+figure {
+  text-align: center;
+}
+
+.grid > img {
+  display: block;
+  margin: var(--spacing) auto;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}

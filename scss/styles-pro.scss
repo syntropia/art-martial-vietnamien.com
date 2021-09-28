@@ -1,5 +1,6 @@
-$primary-hue: 139;
-$grey-hue: 175;
+// Logo dark text: #28494e
+$primary-hue: 188;
+$grey-hue: 188;
 
 // Config
 @import "variables";
@@ -18,11 +19,11 @@ $grey-hue: 175;
 // Content
 @import "content/typography";            // a, headings, p, ul, blockquote, ...
 @import "content/embedded";              // audio, canvas, iframe, img, svg, video
-@import "content/button";                // button, a[role=button], type=button, type=submit ...
-@import "content/form";                  // input, select, textarea, label, fieldset, legend
-@import "content/form-checkbox-radio";   // type=checkbox, type=radio, role=switch
+//@import "content/button";                // button, a[role=button], type=button, type=submit ...
+//@import "content/form";                  // input, select, textarea, label, fieldset, legend
+//@import "content/form-checkbox-radio";   // type=checkbox, type=radio, role=switch
 //@import "content/form-alt-input-types";  // type=color, type=date, type=file, type=search, ...
-@import "content/table";                 // table, tr, td, ...
+//@import "content/table";                 // table, tr, td, ...
 //@import "content/code";                  // pre, code, ...
 //@import "content/miscs";                 // hr, template, [hidden], dialog, canvas
 
