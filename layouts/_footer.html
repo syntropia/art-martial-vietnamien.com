@@ -1,42 +1,33 @@
-<footer>
-    <div class="container">
-      <div>
-        <p>
-          <a href="/" aria-label="Accueil"><img src="/images/logo.png" alt="Logo de l'école Chấn Điện Võ Đường"></a>
-        </p>
-        <div id="site-title-footer">
-          <h5><a href="/">Chấn Điện Võ Đường</a></h5>
-          <small>&Eacute;cole traditionnelle d'arts martiaux vietnamiens</small>
-        </div>
-        <h6><a href="/contact">Contact</a></h6>
-        <h6><a href="/pro">Montpellier Viet Vo Dao Pro</a></h6>
-      </div>
+<footer data-theme="dark">
+  <article>
+    <header>
+      <a class="logo" href="/" aria-label="Accueil">
+        <img src="{{global.logo}}" alt="Logo de l'école {{global.title}}">
+      </a>
+      <hgroup>
+        <h1 class="title"><a href="/" aria-label="Accueil">{{global.title}}</a></h1>
+        <p class="subtitle from-tablet">{{global.subtitle}}</p>
+      </hgroup>
+    </header>
+    <p>4 rue François Mireur<br>34000 Montpellier</p>
+    <p><a href="{{global.contact.url}}">{{global.contact.label}}</a></p>
+    <footer>
+      <a href="{{global.pro.url}}">{{global.pro.label}}</a>
+    </footer>
+  </article>
 
-      <div>
-        <h5><a href="/notre-ecole">Notre école</a></h5>
-        <ul>
-          <li><a href="/notre-ecole/#le-fondateur">Le fondateur</a></li>
-          <li><a href="/notre-ecole/#les-grades">Les grades</a></li>
-          <li><a href="/notre-ecole/#nom-et-symbole">Le symbole</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5><a href="/notre-pratique">Notre Pratique</a></h5>
-        <ul>
-          <li><a href="/notre-pratique/#enseignement">L'enseignement</a></li>
-          <li><a href="/notre-pratique/#stages">Les stages</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5><a href="/informations-pratiques">Informations pratiques</a></h5>
-        <ul>
-          <li><a href="/informations-pratiques#horaires">Horaires</a></li>
-          <li><a href="/informations-pratiques#lieux">Lieux</a></li>
-          <li><a href="/informations-pratiques#tarifs">Tarifs</a></li>
-          <li><a href="/informations-pratiques#stages">Stages</a></li>
-        </ul>
-      </div>
+  <div class="grid from-desktop">
+    {% for entry in global.menu %}
+    <div>
+      <h6><a href="{{entry.url}}">{{entry.label}}</a></h6>
+      {% if entry.anchors %}
+      <ul>
+        {% for anchor_label, anchor_url in entry.anchors %}
+        <li><a href="{{entry.url}}#{{anchor_url}}">{{anchor_label}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
-  </footer>
+    {% endfor %}
+  </div>
+</footer>

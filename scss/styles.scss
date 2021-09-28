@@ -1,6 +1,7 @@
 // ---------- Pico.css --------------------------------------------------
 
 $primary-hue: 139;
+$grey-hue: 175;
 
 // Config
 @import "variables";
@@ -19,7 +20,7 @@ $primary-hue: 139;
 // Content
 @import "content/typography";            // a, headings, p, ul, blockquote, ...
 @import "content/embedded";              // audio, canvas, iframe, img, svg, video
-//@import "content/button";                // button, a[role=button], type=button, type=submit ...
+@import "content/button";                // button, a[role=button], type=button, type=submit ...
 @import "content/form";                  // input, select, textarea, label, fieldset, legend
 @import "content/form-checkbox-radio";   // type=checkbox, type=radio, role=switch
 //@import "content/form-alt-input-types";  // type=color, type=date, type=file, type=search, ...
@@ -41,6 +42,21 @@ $primary-hue: 139;
 
 
 
+// Bugfix in vertical navs
+aside {
+  nav {
+    ol,
+    ul {
+      &:first-of-type {
+        margin-left: 0;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 
 
 // ---------- Custom styles --------------------------------------------------
@@ -48,6 +64,9 @@ $primary-hue: 139;
 html {
   scroll-padding-top: calc(var(--spacing) * 6);
   scroll-behavior: smooth;
+  --menu-height: 4rem;
+  --spacing-large: calc(var(--spacing)*2);
+  --spacing-small: calc(var(--spacing)/2);
 }
 
 iframe {
@@ -55,7 +74,37 @@ iframe {
 }
 
 
-// Menu
+
+// Responsive helpers ----------
+
+@if map-get($breakpoints, "lg") {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    .to-tablet {
+      display: none !important;
+    }
+  }
+}
+
+@if map-get($breakpoints, "md") {
+  @media (max-width: map-get($breakpoints, "md")) {
+    .from-tablet {
+      display: none !important;
+    }
+  }
+}
+
+@if map-get($breakpoints, "lg") {
+  @media (max-width: map-get($breakpoints, "lg")) {
+    .from-desktop {
+      display: none !important;
+    }
+  }
+}
+
+
+
+// Menu ----------
+
 body > nav:first-of-type {
   position: sticky;
   top: 0;
@@ -64,7 +113,11 @@ body > nav:first-of-type {
   border-bottom: 1px solid var(--table-border-color);
   z-index: 100;
 
-  height: 4rem;
+  height: var(--menu-height);
+
+  h1 {
+    font-size: 1.25rem;
+  }
 
   ul {
     &:first-of-type {
@@ -78,34 +131,67 @@ body > nav:first-of-type {
       padding: 0;
 
       &:first-of-type img {
-        width: 4rem;
-        height: 4rem;
+        width: var(--menu-height);
+        height: var(--menu-height);
         max-width: none;        
       }
     }
   }
 
   #site-title {
-    display: none;
-
     small {
       display: block;
       font-size: 0.75rem;
       margin-top: -1.25rem;
     }
   }
-
-  @if map-get($breakpoints, "md") {
-    @media (min-width: map-get($breakpoints, "lg")) {
-      #site-title {
-        display: block;
-      }
-    }
-  }
-
 }
 
-// Hero header
+
+
+// Mobile menu ----------
+
+#mobile-menu {
+  z-index: 1000;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  right: -50%; 
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  background-color: $grey-900;
+  transition: all 0.3s ease-out;
+
+  > a[role="button"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  aside {
+    padding: var(--spacing-small) var(--spacing);
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    ul {
+      margin-top: 0px;
+      margin-bottom: var(--spacing);
+    }
+  }
+}
+
+#mobile-menu:target {
+  visibility: visible;
+  opacity: 1;
+  right: 0px;
+}
+
+
+
+// Hero header ----------
+
 .hero {
   --bg-gradient: linear-gradient(0deg, black 0%, rgba(0,0,0,0.75) 33%, transparent 80%);
   background-color: var(--card-background-color);
@@ -122,50 +208,78 @@ body > nav:first-of-type {
 
 
 
-// Footer
+// Footer ----------
+
 body > footer {
+  background-color: var(--background-color);
   border-top: 1px solid var(--muted-color);
-  padding-bottom: var(--spacing);
+  padding: var(--spacing-large);
+  display: flex;
+  gap: 3rem;
+  align-items: center;
 
-  > div {
-    grid-column-gap: var(--grid-spacing-horizontal);
-    grid-row-gap: var(--grid-spacing-vertical);
-    display: grid;
-    grid-template-columns: 1fr;
+  h6 {
+    margin-bottom: var(--spacing-small);
+  }
 
-    @if map-get($breakpoints, "lg") {
-      @media (min-width: map-get($breakpoints, "lg")) {
-        grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+  article {
+    flex: 3 1;
+    margin: 0;
+
+    header {
+      padding: 0;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+
+      .logo {
+        flex: none;
+      }
+
+      hgroup {
+        margin: 0;
+        padding: 0.25rem 1rem;
+        p {
+          margin: 0;
+        }
+        .title {
+          font-size: 1.25rem;
+        }
+        .subtitle {
+          font-size: 0.8rem;
+        }
       }
     }
 
-    h5 {
-      margin-bottom: calc(var(--typography-spacing-vertical) / 4);
+    footer {
+      margin-top: var(--spacing);
+      padding-top: var(--spacing);
+      padding-bottom: var(--spacing);
     }
+  }
 
-    #site-title-footer {
-      margin-bottom: var(--typography-spacing-vertical);
-      
-      small {
-        display: block;
-        font-size: 0.75rem;
-      }
-    }
+  div.grid {
+    flex: 5 0;
+    --grid-spacing-horizontal: 3rem;
   }
 }
 
-// Utilities
+
+
+
+
+// Utilities ----------
 
 .float-left {
   float: left;
   max-width: 30%;
-  margin-right: calc(var(--spacing) * 2);
+  margin-right: var(--spacing-large);
 }
 
 .float-right {
   float: right;
   max-width: 30%;
-  margin-left: calc(var(--spacing) * 2);
+  margin-left: var(--spacing-large);
 }
 
 h1, h2, h3, h4, h5 {
