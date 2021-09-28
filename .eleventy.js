@@ -1,5 +1,7 @@
 module.exports = function (eleventyConfig) {
 
+  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
+
   eleventyConfig.setUseGitIgnore(false); // Because content/css is generated, thus in .gitignore
   eleventyConfig.addPassthroughCopy("content/css/*.css");
   eleventyConfig.addPassthroughCopy("content/images/**/*");
@@ -18,8 +20,8 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: "njk",
     dir: {
       input: "content",
-      includes: "../layouts",
-      data: "../data",
+      includes: "../layouts", // Relative to input
+      data: "data", // Relative to input
       output: "dist",
     }
   }
