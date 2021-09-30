@@ -5,6 +5,9 @@ subtitle: Un art martial descendant du style Thanh Long
 image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
 nav:
   L'enseignement: '#presentation'
+  Interne: '#interne'
+  Externe: '#externe'
+  Armes: '#armes'
   Les stages: '#stages'
 ---
 

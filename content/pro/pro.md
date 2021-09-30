@@ -1,8 +1,14 @@
 ---
-layout: article-pro
-title: Formations professionnelles
-subtitle: Prévention, sécurité et bien-être
+layout: article
+title: Services profesionnels
+subtitle: Notre savoir-faire pour les entreprises et les particuliers dans toute la France
 image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
+nav:
+  Notre approche: '#approche'
+  Formations: '#formations'
+  Références: '#references'
+  Équipe: '#equipe'
+  Contact: '#contact'
 ---
 
 ## Notre approche {#approche}
@@ -96,11 +102,3 @@ Basées sur une approche globale de l'individu et portées par des intervenants 
   <p>Enseignant/formateur, concepteur de formations, diplômé d'État en arts martiaux.</p>
 </article>
 </div>
-
-
-
-
-
-## Contactez-nous {#contact}
-
-Contactez-nous pour établir une proposition de formation adaptée.

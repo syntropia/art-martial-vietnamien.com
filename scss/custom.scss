@@ -165,9 +165,22 @@ body > nav:first-of-type {
 
 
 
-// Main card ----------
+// Contact card ----------
 
-.main-card {
+@keyframes glowing {
+  from {
+    box-shadow: 0 0 16px transparent;
+  }
+  to {
+    box-shadow: 0 0 16px $primary-800;
+  }
+}
+
+#contact:target {
+  animation: 1s 6 alternate glowing; 
+}
+
+.contact-card {
   margin: 0;
 
   header {

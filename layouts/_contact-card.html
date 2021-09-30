@@ -1,4 +1,4 @@
-<article class="main-card" data-theme="dark">
+<article id="contact" class="contact-card" data-theme="dark">
   <header>
     <a class="logo" href="{{site.home}}" aria-label="Accueil">
       <img src="{{site.logo}}" alt="Logo de l'école {{site.title}}">
@@ -13,7 +13,7 @@
   <p>{{contact.phone}}<br>{{contact.email}}<br>{{contact.website}}</p>
   {% if subsite %}
   <footer>
-    <a href="{{subsite.url}}">{{subsite.label}}</a>
+    Découvrez <a href="{{subsite.url}}">{{subsite.label}}</a>
   </footer>
   {% endif %}
 </article>
