@@ -17,7 +17,7 @@ menu:
   anchors:
     L'enseignement: enseignement
     Les stages: stages
-- label: Infos pratiques
+- label: Horaires et lieux
   url: /informations-pratiques
   anchors:
     Horaires: horaires

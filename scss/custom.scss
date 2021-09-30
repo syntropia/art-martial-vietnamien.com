@@ -24,6 +24,7 @@ html {
   --menu-height: 4rem;
   --spacing-large: calc(var(--spacing)*2);
   --spacing-small: calc(var(--spacing)/2);
+  --font-size-lead: 1.2rem;
 }
 
 iframe {
@@ -73,7 +74,7 @@ body > nav:first-of-type {
   height: var(--menu-height);
 
   h1 {
-    font-size: 1.25rem;
+    font-size: var(--font-size-lead);
   }
 
   ul {
@@ -165,6 +166,17 @@ body > nav:first-of-type {
 
 
 
+// Main content ----------
+
+main section {
+  > h2 {
+    margin-top: calc(var(--block-spacing-vertical) * 2);
+    border-bottom: 1px solid var(--muted-color);
+  }
+}
+
+
+
 // Contact card ----------
 
 @keyframes glowing {
@@ -200,7 +212,7 @@ body > nav:first-of-type {
         margin: 0;
       }
       .title {
-        font-size: 1.25rem;
+        font-size: var(--font-size-lead);
       }
       .subtitle {
         font-size: 0.8rem;
@@ -267,11 +279,6 @@ h1, h2, h3, h4, h5 {
   clear: both;
 }
 
-body section > h2 {
-  border-bottom: 1px solid var(--muted-color);
-  margin-top: calc(var(--block-spacing-vertical) * 3);
-}
-
 .center {
   text-align: center;
 }
@@ -295,4 +302,25 @@ figure {
 
 .no-padding {
   padding: 0 !important;
+}
+
+.lead {
+  font-size: var(--font-size-lead);
+  margin: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+}
+
+.box {
+  width: 50%;
+  font-size: var(--font-size-lead);
+  text-align: center;
+  margin: var(--block-spacing-vertical) auto;
+  padding: var(--spacing-large);
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background: var(--card-background-color);
+  box-shadow: var(--card-box-shadow);
+
+  a[role="button"] {
+    margin: var(--spacing) var(--spacing) 0;
+  }
 }

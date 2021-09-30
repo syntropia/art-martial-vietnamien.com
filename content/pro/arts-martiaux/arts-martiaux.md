@@ -51,4 +51,5 @@ Nous proposons trois approches pour faire découvrir notre art au grand public :
 
 **Nous adaptons les modalités** de nos initiations à **vos attentes**. A votre demande, nous organisons des **stages ponctuels**, **cours réguliers**, des **animations**...
 
-[**Contactez-nous**](#contact){role="button"} pour étudier ensemble **votre projet**.
+Vous souhaitez une initiation sur-mesure ? \
+[**Contactez-nous**](#contact){role="button"} {.box}
