@@ -88,4 +88,4 @@ Notre école organise **plusieurs stages pendant l’année**. Certains sont con
 
 **Début juillet** nous nous retrouvons pour un **stage d’été de six jours** pendant lequel nous pratiquons notre art de manière intensive. Ces stages peuvent être ouverts aux grands débutants, sur demande auprès de l’enseignant.
 
-<article>Les dates des stages seront communiquées ici prochainement.</article>
+Les dates des stages seront communiquées ici prochainement. {.box}

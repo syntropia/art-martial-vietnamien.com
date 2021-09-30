@@ -4,16 +4,17 @@ site:
   logo: /images/logo-pro.png
   home: /pro
   stylesheet: styles-pro.css
+  contact_button: true
 
 menu:
 - label: Formations
   url: /pro/formations
   anchors:
     Notre approche: '#approche'
-    Formations: '#formations'
+    Notre méthode: '#methode'
+    Nos formations: '#formations'
     Références: '#references'
     Équipe: '#equipe'
-    Contact: '#contact'
 - label: Massages
   url: /pro/massages
   anchors:

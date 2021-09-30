@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Massages
-subtitle: Bien-être physique et psychologique pour aborder sereinement votre vie quotidienne
+subtitle: Apaisez votre corps et votre esprit grâce à nos massages traditionnels
 image: https://source.unsplash.com/ZbzYDboN7fg/1920x1280
 nav:
   Nos massages: '#massages'
@@ -10,8 +10,6 @@ nav:
 ---
 
 Face au **rythme de vie effréné** auquel nous sommes confrontés, peu de gens prennent le temps de **faire attention à leur corps** ou de **s'accorder des moments de réelle détente**. Pourtant, pour **combattre le stress, la fatigue** et **prévenir leurs conséquences** sur notre santé, il existe un moyen simple et efficace, utilisé dans de nombreuses cultures à travers le monde : le **massage**. 
-
-Nous vous proposons des prestations inspirées de ces traditions, **en entreprise** et **à domicile**, pour vous aider à **apaiser votre corps et votre esprit**.
 
 
 
@@ -60,10 +58,11 @@ Faire profiter de nos massages :
 - à vos **clients et fournisseurs** : c'est assurer une **collaboration dans les meilleures dispositions**.
 
 Nous adaptons nos interventions à vos attentes : 
-- l'**espace** : massages **assis**, **sur table** ou **sur matelas** selon la configuration de vos locaux,
+- l'*espace* : massages **assis**, **sur table** ou **sur matelas** selon la configuration de vos locaux,
 - le *temps* : plusieurs **durées de massages ajustables** à tous les emplois du temps.
 
-[**Contactez-nous**](#contact){role="button"} pour étudier ensemble **votre projet**.
+Étudions ensemble **votre projet** :
+[**Contactez-nous**](#contact){role="button"} {.box}
 
 
 
@@ -71,8 +70,10 @@ Nous adaptons nos interventions à vos attentes :
 
 ## À domicile {#domicile}
 
-Offrez-vous **un moment de bien-être chez vous**.
 
 Dans un cadre familier auquel nos intervenants ajoutent **une ambiance propice à la détente**, vous apprécierez pleinement un massage que vous choisirez **selon votre envie et vos besoins**. 
 
-[**Contactez-nous**](#contact){role="button"} pour prendre rendez-vous.
+
+Offrez-vous \
+**un moment de bien-être chez vous**:
+[**Contactez-nous**](#contact){role="button"} {.box}

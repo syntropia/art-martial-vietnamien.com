@@ -1,7 +1,154 @@
 ---
 layout: article
-title: Formations professionnelles
+title: Formations en milieu professionnel
 subtitle: Le bien-être des employés, la santé de l'entreprise
 image: header.png
+nav:
+  Notre approche: '#approche'
+  Notre méthode: '#methode'
+  Nos formations: '#formations'
+  Références: '#references'
+  Équipe: '#equipe'
 ---
 
+Nous intervenons **partout en France** pour **accompagner vos salariés** sur le chemin de leur **prise en charge personnelle**. {.lead} 
+
+L'évolution effrénée de la société actuelle et l'omniprésence de la technologie dans nos vies **boulversent notre manière de vivre**. Ce monde avance à une vitesse affolante et l'être humain subit ces **changements qui mettent à mal son équilibre**. Dans le monde du travail, l'employé doit faire face à de plus en plus de **pressions** et affronter de plus en plus de **conflits**.
+
+Cette **perte de repères physiques et psychologiques** favorise l'**apparition de nombreux maux** (stress, TMS, fragilité devant la maladie...) que nous devons traiter par une visite à un médecin, un kinésithérapeute, un psychothérapeute, etc. Ces maux réaparaissent bien souvent car nous ne modifions pas notre mode de vie et ses mauvaises habitudes.
+
+
+
+
+
+## Notre approche {#approche}
+
+Nous plaçons **la prévention au coeur de notre approche de la santé**.
+
+Forts d'une **longue expérience** dans le domaine des **arts martiaux**, nous faisons partager à tous des **pratiques de santé millénaires** empruntées aux médecines traditionnelles asiatiques. Ces connaissances trop longtemps méconnues constituent en effet une véritable **science de la prévention**.
+
+> "Si tu donnes un poisson à un homme, il mangera un jour.
+> Si tu lui apprends à pêcher, il mangera toujours."
+> <footer><cite>&mdash; Proverbe chinois</cite></footer>
+
+L'objectif de nos programmes de formation: devenir **responsable de sa santé** et **prendre en main son bien-être**. Ètre **bien dans son corps et dans sa tête** permet d'**affronter tous les problèmes**.
+
+
+#### Les bienfaits de nos formations {#bienfaits}
+
+Pour le salarié :
+- Gérer son stress et ses émotions (peur, colère,...)
+- Prévenir les TMS et les maladies professionnelles
+- Savoir entretenir son corps
+- S'épanouir sur son lieu de travail.
+
+Pour l'entreprise :
+- Moins d'arrêts maladie
+- Meilleure productivité
+- Meilleur ambiance de travail
+- Accroissement du potentiel des salariés
+
+Pour **en savoir plus** \
+et nous parler de **votre projet**:
+[**Contactez-nous**](#contact){role="button"} {.box}
+
+
+
+
+
+## Notre méthode {#methode}
+
+Nos formations abordent l’**anticipation et la gestion** des situations de conflits et d’agression dans un cadre professionnel de contact avec le public. 
+
+La richesse de notre **approche pluri-disciplinaire** nous permet de fournir les **meilleurs outils** aux professionnels amenés à rencontrer des conflits potentiellement violents psychologiquement et physiquement. 
+
+Dans l’idée de **renforcer la cohésion d’équipe** et de **faciliter les apprentissages**, une partie de nos ateliers est conçue avec une composante ludique.
+
+
+#### Analyse et méthodes
+
+Nous vous apportons aux stagiaires des éléments théoriques liés à l’**organisation du travail**, la **communication**, et la **psychologie**.
+
+Nous animons des ateliers d'analyse de pratique, de régulation d'équipe, et de réflexion/élaboration autour de plusieurs thématiques.
+
+> **Intérêts**: temps d'échange, prise de recul par raport au quotidien du travail, intégration de clefs d'analyse.
+
+
+#### Pratique physique
+
+Inspirée des arts martiaux, cette pratique se décline selon quatre directions de travail indispensables à la gestion de situations conflictuelles:
+- **Sécurité**: apprendre les bases nécessaires pour éviter le danger face à une agression
+- **Confrontation**: découvrir la confrontation physique de manière ludique
+- **Gestion des émotions**: exercices de respiration, relaxation
+- **Prévention santé**: étirement, entretien du corps
+
+> **Intérêts**: se sentir en sécurité et plus serein lors d'un conflit, éviter d'envenimer une situation délicate, se préserver physiquement et psychologiquement, prendre conscience de la nécessité d'une condition physique optimum pour un bien-être sur le poste de travail.
+
+
+#### Mises en situation
+
+Ce travail de jeux de rôle a pour but d'ancrer dans le cadre professionnel les apports des autres ateliers.
+
+
+
+
+
+## Nos formations {#formations}
+
+Nous proposons des formations adaptées aux multiples réalités du travail en entreprise:
+- **Prévention et gestion des conflits et de l'agression**
+- **Ergonomie, gestes et postures, prévention des <abbr title="Troubles musculo-squelettiques">TMS</abbr>**
+- **Gestion du stress, relaxation**
+- **Expression corporelle**
+
+Basées sur une **approche globale de l'individu** et portées par des **intervenants spécialisés et complémentaires**, nos formations répondent aux **besoins spécifiques** de nombreux corps de métier: agents de sécurisation et de contrôle (transports), professionnels de la petite enfance, téléopérateurs...
+
+Pour **en savoir plus** \
+et nous parler de **votre projet**:
+[**Contactez-nous**](#contact){role="button"} {.box}
+
+
+
+
+
+## Nos références {#references}
+
+<div class="grid">
+  <article>
+    <h4>Orange</h4>
+    <p>Prévention des TMS</p>
+  </article>
+  <article>
+    <h4>Transport de l'Agglomération de Montpellier</h4>
+    <p>Prévention et gestion des conflits et de l'agression</p>
+  </article>
+  <article>
+    <h4>Conservatoire d'art dramatique de Montpellier</h4>
+    <p>Expression corporelle</p>
+  </article>
+  <article>
+    <h4>Petite enfance CFA Partners</h4>
+    <p>Gestes et postures, gestion du stress, relaxation, gestion de conflits au sein d'une équipe</p>
+  </article>
+</div>
+
+
+
+
+
+## Qui sommes-nous ? {#equipe}
+
+<div class="grid">
+  <article>
+    <h3>Adda Keliche</h3>
+    <p>Formateur en gestion de stress et agression, expert en arts martiaux.</p>
+  </article>
+  <article>
+    <h3>Lilia Merabet</h3>
+    <p>Psychologue, formatrice risques psycho-sociaux, handicap, psychosomaticienne.</p>
+  </article>
+  <article>
+    <h3>Mohamed Faquir</h3>
+    <p>Enseignant/formateur, concepteur de formations, diplômé d'État en arts martiaux.</p>
+  </article>
+</div>
