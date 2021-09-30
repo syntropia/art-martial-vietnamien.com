@@ -11,6 +11,7 @@
     {% for entry in menu %}
     <li><a href="{{entry.url}}">{{entry.label}}</a></li>
     {% endfor %}
+    <li><a href="#contact">Contact</a></li>
   </ul>
   <ul class="to-tablet">
     <li><a id="mobile-menu-button" href="#mobile-menu" onclick="self.location.replace('#mobile-menu')">
@@ -29,7 +30,8 @@
     <svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" stroke="white" stroke-width="2">
       <line x1="0" y1="0" x2="16" y2="16"/>
       <line x1="0" y1="16" x2="16" y2="0"/>
-    </svg> </a>
+    </svg>
+  </a>
   <aside>
     <nav>
       <ul>
@@ -38,7 +40,7 @@
         </li>
       </ul>
 
-      {% for entry in menu%}
+      {% for entry in menu %}
       <ul>
         <li>
           <h4><a href="{{entry.url}}">{{entry.label}}</a></h4>
@@ -50,10 +52,10 @@
       {% endfor %}
       <ul>
         <li>
-          <h4><a href="{{contact.url}}">{{contact.label}}</a></h4>
+          <h4><a href="#contact">Contact</a></h4>
         </li>
         <li>
-          <h4><a href="{{pro.url}}">{{pro.label}}</a></h4>
+          Découvrez <a href="{{subsite.url}}">{{subsite.label}}</a>
         </li>
       </ul>
     </nav>

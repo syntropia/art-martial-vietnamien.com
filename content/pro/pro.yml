@@ -6,16 +6,25 @@ site:
   stylesheet: styles-pro.css
 
 menu:
-- label: Notre approche
-  url: '#approche'
 - label: Formations
-  url: '#formations'
-- label: Références
-  url: '#references'
-- label: Équipe
-  url: '#equipe'
-- label: Contact
-  url: '#contact'
+  url: /pro/formations
+  anchors:
+    Notre approche: '#approche'
+    Formations: '#formations'
+    Références: '#references'
+    Équipe: '#equipe'
+    Contact: '#contact'
+- label: Massages
+  url: /pro/massages
+  anchors:
+    Nos massages: '#massages'
+    En entreprise: '#entreprise'
+    À domicile: '#domicile'
+- label: Arts martiaux
+  url: /pro/arts-martiaux
+  anchors:
+    Bienfaits des arts martiaux: '#bienfaits'
+    S'initier avec nous: '#initiation'
 
 contact:
   address: 4, rue François Mireur
@@ -25,4 +34,6 @@ contact:
   email: montpelliervvd@art-martial-vietnamien.com
   website: www.art-martial-vietnamien.com/pro
 
-subsite: ~
+subsite:
+  label: l'école Chấn Điện Võ Đường
+  url: /
