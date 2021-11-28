@@ -18,6 +18,7 @@
           <ul>
             {% for title,link in nav %}
             <li><a href="{{link}}">{{title}}</a></li>
+            {% if not loop.last %}<li>•</li>{% endif %}
             {% endfor %}
           </ul>
         </nav>

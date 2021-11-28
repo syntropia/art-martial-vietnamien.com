@@ -168,6 +168,10 @@ body > nav:first-of-type {
 
 // Main content ----------
 
+body header nav li a {
+  text-align: center;
+}
+
 main section {
   > h2 {
     margin-top: calc(var(--block-spacing-vertical) * 2);
@@ -310,7 +314,7 @@ figure {
 }
 
 .box {
-  width: 50%;
+  width: 75%;
   font-size: var(--font-size-lead);
   text-align: center;
   margin: var(--block-spacing-vertical) auto;
