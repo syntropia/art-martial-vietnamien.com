@@ -328,3 +328,40 @@ figure {
     margin: var(--spacing) var(--spacing) 0;
   }
 }
+
+.customer {
+  width: 100%;
+  font-size: var(--font-size-lead);
+  margin: 0;
+  padding: var(--spacing-large);
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background: var(--card-background-color);
+  box-shadow: var(--card-box-shadow);
+  transition: all 125ms ease-in;
+  
+  a[role="button"] {
+    margin: var(--spacing) var(--spacing) 0;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  >figure {
+    float: left;
+    height: 100%;
+    margin-right: var(--grid-spacing-horizontal);
+  }
+  >section {
+    margin-bottom: 0;
+    h4 {
+      clear: none;
+      margin-bottom: 0;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
