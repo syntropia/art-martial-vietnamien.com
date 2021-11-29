@@ -18,7 +18,8 @@ module.exports = function (eleventyConfig) {
       .use(require("markdown-it-attrs"))
       .use(require("markdown-it-header-sections"))
       .use(require("markdown-it-footnote"))
-      .use(require("markdown-it-image-figures"), { figcaption: true });
+      .use(require("markdown-it-image-figures"), { figcaption: true })
+      .use(require("markdown-it-container-pandoc"));
   eleventyConfig.setLibrary("md", markdownIt);
 
   return {

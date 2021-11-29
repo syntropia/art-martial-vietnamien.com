@@ -1674,6 +1674,11 @@ markdown-it-attrs@^4.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.0.0.tgz#eadae3ea0c7d17c5e83b98a4ec95a47f4e4960f5"
   integrity sha512-uLjtdCmhhmL3BuZsReYkFxk74qKjj5ahe34teBpOCJ4hYZZl7/ftLyXWLowngC2moRkbLEvKwN/7TMwbhbHE/A==
 
+markdown-it-container-pandoc@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-container-pandoc/-/markdown-it-container-pandoc-1.0.0.tgz#e01ac44acdb6b6a7670fae31402b73c4422d59f4"
+  integrity sha512-6X727jdTChYoRcu6E1iWWDehr4rSp4izWeYYmEUcWrUn8626KVTTVw58260oww4t8NRGUqQ4/tm2gBb4jW8pIg==
+
 markdown-it-footnote@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
