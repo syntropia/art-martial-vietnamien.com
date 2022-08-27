@@ -31,7 +31,6 @@ jobs:
     - name: Generate site
       run: |
         yarn install --frozen-lockfile
-        yarn build-styles
         yarn build
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
