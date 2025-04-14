@@ -1,3 +1,4 @@
+@use "sass:map";
 
 // Bugfix in vertical navs
 aside {
@@ -35,24 +36,24 @@ iframe {
 
 // Responsive helpers ----------
 
-@if map-get($breakpoints, "lg") {
-  @media (min-width: map-get($breakpoints, "lg")) {
+@if map.get($breakpoints, "lg") {
+  @media (min-width: map.get($breakpoints, "lg")) {
     .to-tablet {
       display: none !important;
     }
   }
 }
 
-@if map-get($breakpoints, "md") {
-  @media (max-width: map-get($breakpoints, "md")) {
+@if map.get($breakpoints, "md") {
+  @media (max-width: map.get($breakpoints, "md")) {
     .from-tablet {
       display: none !important;
     }
   }
 }
 
-@if map-get($breakpoints, "lg") {
-  @media (max-width: map-get($breakpoints, "lg")) {
+@if map.get($breakpoints, "lg") {
+  @media (max-width: map.get($breakpoints, "lg")) {
     .from-desktop {
       display: none !important;
     }

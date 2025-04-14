@@ -23,11 +23,11 @@
   },
   "scripts": {
     "build": "run-s -nl \"build:*\"",
-    "build:scss": "sass scss/styles.scss:content/css/styles.css --no-source-map --load-path=node_modules/@picocss/pico/scss",
+    "build:scss": "sass scss/styles.scss:content/css/styles.css --quiet-deps  --silence-deprecation=import --no-source-map --load-path=node_modules/@picocss/pico/scss",
     "build:eleventy": "eleventy",
     "clean": "rimraf dist/",
     "dev": "run-p -nl \"dev:*\"",
-    "dev:styles": "sass scss/styles.scss:content/css/styles.css --no-source-map --load-path=node_modules/@picocss/pico/scss --watch",
+    "dev:styles": "sass scss/styles.scss:content/css/styles.css --quiet-deps  --silence-deprecation=import --no-source-map --load-path=node_modules/@picocss/pico/scss --watch",
     "dev:eleventy": "eleventy --serve",
     "format": "prettier ."
   },
