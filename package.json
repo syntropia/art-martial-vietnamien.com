@@ -3,26 +3,33 @@
   "version": "1.0.0",
   "repository": "https://github.com/lysid/monjo.pro.git",
   "author": "Frédéric Monjo <frederic@monjo.pro>",
+  "type": "module",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@picocss/pico": "^1.3.3",
-    "cssnano": "^5.0.8",
+    "@11ty/eleventy": "^3.0.0",
+    "@picocss/pico": "~1.5.0",
     "js-yaml": "^4.1.0",
-    "markdown-it": "^12.2.0",
-    "markdown-it-attrs": "^4.0.0",
-    "markdown-it-container-pandoc": "^1.0.0",
-    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-footnote": "^4.0.0",
     "markdown-it-header-sections": "^1.0.0",
-    "markdown-it-image-figures": "^1.2.0",
-    "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1",
-    "sass": "^1.38.0"
+    "markdown-it-image-figures": "^2.1.1",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "sass": "^1.86.3"
+  },
+  "prettier": {
+    "semi": false,
+    "proseWrap": "always"
   },
   "scripts": {
-    "watch-styles": "npx sass scss/styles.scss:content/css/styles.css --no-source-map --load-path=node_modules/@picocss/pico/scss --watch",
-    "build-styles": "npx sass scss/styles.scss:content/css/styles.css --no-source-map --load-path=node_modules/@picocss/pico/scss",
-    "postbuild-styles": "npx postcss content/css/styles.css > content/css/styles.min.css",
-    "build": "rm -rf dist && npm run build-styles && npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
-  }
+    "build": "run-s -nl \"build:*\"",
+    "build:scss": "sass scss/styles.scss:content/css/styles.css --no-source-map --load-path=node_modules/@picocss/pico/scss",
+    "build:eleventy": "eleventy",
+    "clean": "rimraf dist/",
+    "dev": "run-p -nl \"dev:*\"",
+    "dev:styles": "sass scss/styles.scss:content/css/styles.css --no-source-map --load-path=node_modules/@picocss/pico/scss --watch",
+    "dev:eleventy": "eleventy --serve",
+    "format": "prettier ."
+  },
+  "packageManager": "yarn@4.7.0"
 }
