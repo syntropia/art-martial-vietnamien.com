@@ -1,38 +1,43 @@
 <!doctype html>
 <html lang="fr" data-theme="light">
+  {% include "_head.html" %}
 
-{% include "_head.html" %}
+  <body>
+    {% include "_menu.html" %}
 
-<body>
+    <header
+      data-theme="dark"
+      class="hero"
+      {%
+      if
+      image
+      %}
+      style="background-image: var(--bg-gradient), url('{{image}}')"
+      {%
+      endif
+      %}
+    >
+      <div class="container">
+        <hgroup>
+          <h1>{{title}}</h1>
+          <p>{{subtitle}}</p>
+          {% if nav %}
+          <nav>
+            <ul>
+              {% for title,link in nav %}
+              <li><a href="{{link}}">{{title}}</a></li>
+              {% if not loop.last %}
+              <li>•</li>
+              {% endif %} {% endfor %}
+            </ul>
+          </nav>
+          {% endif %}
+        </hgroup>
+      </div>
+    </header>
 
-  {% include "_menu.html" %}
-  
-  <header data-theme="dark" class="hero" {% if image %} style="background-image: var(--bg-gradient), url('{{image}}')"
-    {% endif %}>
-    <div class="container">
-      <hgroup>
-        <h1>{{title}}</h1>
-        <p>{{subtitle}}</p>
-        {% if nav %}
-        <nav>
-          <ul>
-            {% for title,link in nav %}
-            <li><a href="{{link}}">{{title}}</a></li>
-            {% if not loop.last %}<li>•</li>{% endif %}
-            {% endfor %}
-          </ul>
-        </nav>
-        {% endif %}
-      </hgroup>
-    </div>
-  </header>
+    <main class="container">{{content | safe}}</main>
 
-  <main class="container">
-    {{content | safe}}
-  </main>
-
-  {% include "_footer.html" %}
-  
-</body>
-
+    {% include "_footer.html" %}
+  </body>
 </html>

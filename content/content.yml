@@ -6,24 +6,24 @@ site:
   stylesheet: styles.css
 
 menu:
-- label: Notre école
-  url: /notre-ecole
-  anchors:
-    Le fondateur: le-fondateur
-    Les grades: les-grades
-    Le symbole: nom-et-symbole
-- label: Notre pratique
-  url: /notre-pratique
-  anchors:
-    L'enseignement: enseignement
-    Les stages: stages
-- label: Horaires et lieux
-  url: /informations-pratiques
-  anchors:
-    Horaires: horaires
-    Lieux: lieux
-    Tarifs: tarifs
-    Stages: stages
+  - label: Notre école
+    url: /notre-ecole
+    anchors:
+      Le fondateur: le-fondateur
+      Les grades: les-grades
+      Le symbole: nom-et-symbole
+  - label: Notre pratique
+    url: /notre-pratique
+    anchors:
+      L'enseignement: enseignement
+      Les stages: stages
+  - label: Horaires et lieux
+    url: /informations-pratiques
+    anchors:
+      Horaires: horaires
+      Lieux: lieux
+      Tarifs: tarifs
+      Stages: stages
 
 contact:
   address: 4, rue François Mireur
