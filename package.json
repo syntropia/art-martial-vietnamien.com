@@ -29,7 +29,7 @@
     "dev": "run-p -nl \"dev:*\"",
     "dev:styles": "sass scss/styles.scss:content/css/styles.css --quiet-deps  --silence-deprecation=import --no-source-map --load-path=node_modules/@picocss/pico/scss --watch",
     "dev:eleventy": "eleventy --serve",
-    "format": "prettier ."
+    "format": "prettier . --write"
   },
   "packageManager": "yarn@4.7.0"
 }

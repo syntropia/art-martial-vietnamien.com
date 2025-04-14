@@ -1,11 +1,11 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "node_modules/@picocss/pico/scss"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": ".",
+    },
+    {
+      "path": "node_modules/@picocss/pico/scss",
+    },
+  ],
+  "settings": {},
 }

@@ -1,6 +1,9 @@
 <nav data-theme="dark" class="container-fluid">
   <ul>
-    <li><a href="{{site.home}}" aria-label="Accueil"><img src="{{site.logo}}" alt="Logo de l'école {{site.title}}"></a>
+    <li>
+      <a href="{{site.home}}" aria-label="Accueil"
+        ><img src="{{site.logo}}" alt="Logo de l'école {{site.title}}"
+      /></a>
     </li>
     <li id="site-title">
       <p><a href="{{site.home}}" aria-label="Accueil">{{site.title}}</a></p>
@@ -10,30 +13,53 @@
   <ul class="from-tablet">
     {% for entry in menu %}
     <li><a href="{{entry.url}}">{{entry.label}}</a></li>
-    {% endfor %}
-    {% if site.contact_button %}
+    {% endfor %} {% if site.contact_button %}
     <li><a href="#contact" role="button">Contactez-nous</a></li>
     {% else %}
-    <li><a href="#contact"}>Contact</a></li>
+    <li><a href="#contact" }>Contact</a></li>
     {% endif %}
   </ul>
   <ul class="to-tablet">
-    <li><a id="mobile-menu-button" href="#mobile-menu" onclick="self.location.replace('#mobile-menu')">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24" id="menu-icon">
+    <li>
+      <a
+        id="mobile-menu-button"
+        href="#mobile-menu"
+        onclick="self.location.replace('#mobile-menu')"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          width="24"
+          height="24"
+          id="menu-icon"
+        >
           <rect y="7" width="24" height="3"></rect>
           <rect y="15" width="24" height="3"></rect>
           <rect y="23" width="24" height="3"></rect>
         </svg>
-      </a></li>
+      </a>
+    </li>
   </ul>
 </nav>
 
 <div id="mobile-menu">
-  <a id="close-menu-button" class="float-right" role="button" href="#close-menu"
-    onclick="self.location.replace('#close-menu')">
-    <svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" stroke="white" stroke-width="2">
-      <line x1="0" y1="0" x2="16" y2="16"/>
-      <line x1="0" y1="16" x2="16" y2="0"/>
+  <a
+    id="close-menu-button"
+    class="float-right"
+    role="button"
+    href="#close-menu"
+    onclick="self.location.replace('#close-menu')"
+  >
+    <svg
+      viewBox="0 0 16 16"
+      width="16"
+      height="16"
+      xmlns="http://www.w3.org/2000/svg"
+      stroke="white"
+      stroke-width="2"
+    >
+      <line x1="0" y1="0" x2="16" y2="16" />
+      <line x1="0" y1="16" x2="16" y2="0" />
     </svg>
   </a>
   <aside>
@@ -56,13 +82,15 @@
       {% endfor %}
       <ul>
         {% if site.contact_button %}
-        <li><h4><a href="#contact" role="button">Contactez-nous</a></h4></li>
-        {% else %}
-        <li><h4><a href="#contact"}>Contact</a></h4></li>
-        {% endif %}
         <li>
-          Découvrez <a href="{{subsite.url}}">{{subsite.label}}</a>
+          <h4><a href="#contact" role="button">Contactez-nous</a></h4>
         </li>
+        {% else %}
+        <li>
+          <h4><a href="#contact" }>Contact</a></h4>
+        </li>
+        {% endif %}
+        <li>Découvrez <a href="{{subsite.url}}">{{subsite.label}}</a></li>
       </ul>
     </nav>
   </aside>
