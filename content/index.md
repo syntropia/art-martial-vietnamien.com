@@ -8,7 +8,6 @@ title: École traditionnelle d'arts martiaux vietnamiens
 ## Reste à faire
 
 - Intégrer "Nos racines" dans "Notre pratique"
-- Micro-data contact dans footer
-- Intégrer des photos
+- Intégrer des photos dans header
 - Page d'accueil
 - Espace élèves ?

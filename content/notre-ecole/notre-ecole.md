@@ -35,6 +35,35 @@ S-12-2010 en date du 14 mai 2010.
 
 ![Adda Keliche en posture de garde](adda.jpg "Adda Keliche") {.float-left}
 
+**Adda Keliche** est un expert en arts martiaux vietnamiens, reconnu Maître 6ᵉ
+Dang (Dan), fondateur de Chấn Điện Võ Đường – l’une des rares écoles
+traditionnelles qui transmet encore cet art selon les valeurs humaines issues
+des grandes philosophies asiatiques.
+
+Son enseignement repose sur une **approche complète et respectueuse des
+traditions**, en lien avec l’éthique, la transmission et l’évolution
+personnelle.
+
+Adda maîtrise aussi bien la **partie martiale**, dans une recherche de
+discipline intérieure et de dépassement de ses propres peurs, que les
+**pratiques liées à la santé et au bien-être** : Chi Kong, Tai Chi, méditation,
+respiration, circulation de l’énergie vitale.
+
+Il enseigne également le maniement des **armes traditionnelles**, et intègre à
+sa pédagogie des savoirs issus des lois universelles, de la médecine
+traditionnelle chinoise, ainsi que des techniques de massage, considérés comme
+des éléments à part entière de la pratique martiale.
+
+Parallèlement, Adda Keliche dirige Espace Vital, un organisme de formation
+spécialisé dans la gestion du stress, des conflits et des agressions, où il met
+à profit son expérience martiale au service de la prévention des risques
+psychosociaux (RPS). Formateur référencé par la CARSAT, il intervient dans de
+nombreuses structures en accompagnant les professionnels vers plus de maîtrise,
+de sécurité et d’équilibre au travail. Son double parcours – dans la voie
+martiale traditionnelle et la formation en entreprise – en fait une figure
+singulière et engagée, au carrefour de la transmission, du soin et de la
+transformation intérieure.
+
 **Adda Keliche** est expert en arts martiaux (ceinture noire 5<sup>e</sup> dang)
 et [formateur en gestion de stress et agression](/pro).
 

@@ -23,20 +23,67 @@ possible de débuter en cours d’année.
 **Il n’est jamais trop tard pour débuter : n’hésitez pas à venir nous rencontrer
 tout au long de l’année.**
 
-| Lundi                                                                   | Mercredi                                                                | Vendredi                                                                                              | Samedi                                                                               |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-|                                                                         |                                                                         |                                                                                                       | **12h-14h**<br>**Gymnase Gambardella**<br>Cours libre<br><small>Tous niveaux</small> |
-|                                                                         | **15h30 - 16h30**<br>Enfants<br><small>4 à 8 ans</small>                |
-|                                                                         | **16h30 - 18h**<br>Ados<br><small>Dès 9 ans</small>                     |
-| **18h30 - 20h**<br>Externe<br><small>Adultes<br>Enfants +14 ans</small> | **18h30 - 20h**<br>Externe<br><small>Adultes<br>Enfants +14 ans</small> |
-| **20h - 21h**<br>Interne<br><small>Adultes<br>Enfants +14 ans</small>   | **20h - 21h**<br>Interne<br><small>Adultes<br>Enfants +14 ans</small>   | **20h - 21h30**<br>**Centre des arts martiaux**<br>Armes<br><small>Adultes<br>Enfants +14 ans</small> |
+<div class="grid horaires">
+  <div>
+    <h3>Lundi</h3>
+    <p>
+      <strong>15h30–16h30</strong><br>
+      Gym chinoise<br>
+      <small>Séniors</small>
+    </p>
+    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
+  </div>
+  <div>
+    <h3>Mardi</h3>
+    <p>
+      <strong>20h – 22h</strong><br>
+      Cours général de boxe vietnamienne<br>
+      <small>Adolescents et adultes</small>
+    </p>
+    <p><a href="#gymnase-rabelais">Gymnase Rabelais</a></p>
+  </div>
+  <div>
+    <h3>Mercredi</h3>
+    <p><strong>18h - 19h</strong><br>Enfants<br><small>5 à 8 ans</small></p>
+    <p><strong>19h - 20h30</strong><br>Voie externe<br><small>Adultes</small></p>
+    <p><strong>20h30 - 21h30h</strong><br>Voie interne<br><small>Adultes</small></p>
+    <p><strong>21h30 - 22h30</strong><br>Armes traditionnelles<br><small>Adultes</small></p>
+    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
+  </div>
+  <div>
+    <h3>Jeudi</h3>
+    <p>
+      <strong>17h30 – 19h</strong><br>
+      Adolescents<br>
+      <small>À partir de 9 ans</small>
+    </p>
+    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
+  </div>
+  <div>
+    <h3>Vendredi</h3>
+    <p>
+      <strong>12h – 14h</strong><br>
+      Cours libre<br>
+      <small>Tous niveaux</small>
+    </p>
+    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
+  </div>
+  <div>
+    <h3>Samedi</h3>
+    <p>
+      <strong>9h – 10h30</strong><br>
+      Voie interne<br>
+      <small>Tous niveaux</small>
+    </p>
+    <p><a href="#gymnase-gambardella">Gymnase Gambardella</a></p>
+  </div>
+</div>
 
-**Remarques**:
+**Remarques :**
 
+- _Voie externe_: art martial
+- _Voie interne_: méditation, Tai Chi, Chi Kong
 - Les cours d'armes commencent à partir de la deuxième année de pratique.
-- Si la situation sanitaire s’améliore, des cours supplémentaires seront
-  ouverts.
-- Le Pass Sanitaire sera obligatoire pour l’accès aux cours.
 
 ### Vacances scolaires {#vacances-scolaires}
 
@@ -47,44 +94,38 @@ Les cours s’arrêtent pendant les vacances d’été.
 
 ## Lieux des cours {#lieux-cours}
 
-Les **cours du lundi et du mercredi** ont lieu à la salle
-[Espace Vital](http://www.espacevital.fr), située
-[4 rue François-Mireur, 34070 Montpellier](https://goo.gl/maps/UEELKbgXpxWkNJmF8).
+### Maison pour tous Marcel Pagnol {#mpt-marcel-pagnol}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.778542485498!2d3.865121880233099!3d43.59797773919989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6afb29af4dfe1%3A0x64287a68c6141baa!2sEspace%20Vital!5e0!3m2!1sfr!2sfr!4v1631523444909!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+Les **cours du lundi, mercredi, jeudi et du vendredi** ont lieu à la
+[Maison pour tous Marcel Pagnol](https://www.montpellier.fr/territoire/lieux-equipements/maison-pour-tous-marcel-pagnol#/),
+située
+[64 route de Lavérune, 34000 Montpellier](https://maps.app.goo.gl/dVPA64QNg68epS8n9)
+:
 
-Le **cours d'armes du vendredi** ont lieu au
-[Centre des arts martiaux](https://www.centredesartsmartiaux.fr/), situé
-[2049 route de Toulouse, 34000 Montpellier](https://goo.gl/maps/fUN4f3Lkcd6mg4bw7)
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.2460459682584!2d3.8479673763235267!3d43.6014183711047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ae5cb50925ef%3A0xaca37dbf7be69272!2sMaison%20pour%20tous%20Marcel-Pagnol%20-%20Quartier%20Les%20C%C3%A9vennes!5e0!3m2!1sfr!2sfr!4v1745306528392!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-Le **samedi matin uniquement**, les cours auront lieu au **gymnase
-Gambardella**, situé
-[4 Rue Bourrely, 34000 Montpellier](https://goo.gl/maps/zUXCpJMTE2ZpeCNg7).
+### Gymnase Rabelais {#gymnase-rabelais}
 
-## Tarifs à l’année (2021-2022) {#tarifs}
+Le **cours de boxe vietnamienne du mardi** a lieu au gymnase Rabelais, situé
+[216 rue de Malbosc 180, 34080 Montpellier](https://maps.app.goo.gl/zqj8DuFt4H6pRGUcA):
 
-Pour les tarifs, il existe plusieurs possibilités selon la formule retenue
-(interne seul, interne + externe, interne + externe + armes traditionnelles),
-l’âge et la situation personnelle (tarif réduit pour les étudiants, demandeurs
-d’emploi ou retraités ainsi que tarifs de couples et familiaux). Dans tous les
-cas, un paiement étalé sur plusieurs mois est possible.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5776.100623832928!2d3.829850276324786!3d43.62631177110345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ae9a317dbef1%3A0xcf0bb38d12a0d34d!2sGymnase%20Rabelais!5e0!3m2!1sfr!2sfr!4v1745306714862!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-**Rappel** : à part pendant les vacances de fin d’année, l’école reste ouverte
-pendant toutes les vacances scolaires de début septembre à fin juin.
+### Gymnase Gambardella {#gymnase-gambardella}
 
-| **Cours adultes**         | Tarif normal | Tarif réduit |
-| ------------------------- | ------------ | ------------ |
-| Interne seul              | 350 €        | 300 €        |
-| Interne et externe        | 430 €        | 380 €        |
-| Interne, externe et armes | 490 €        | 440 €        |
+Le **cours de voie interne du samedi** a lieu au gymnase Gambardella, situé
+[4, rue Bourrely, 34000 Montpellier](https://maps.app.goo.gl/gZD3KqArHHYH9ubQ8):
 
-| **Cours enfants**      | Tarif unique |
-| ---------------------- | ------------ |
-| Un cours par semaine   | 190 €        |
-| Deux cours par semaine | 270 €        |
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5778.362091449239!2d3.866557876323609!3d43.602771871104615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6afaddcea62a7%3A0x6fe25c0d2d83cd2d!2sGymnase%20Emmanuel%20Gambardella!5e0!3m2!1sfr!2sfr!4v1745306889479!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-A cette somme s’ajoutent **37€ de frais de licence annuelle** (adhésion à la
-<abbr title="Fédération française de karaté et disciplines associées">F.F.K.D.A.</abbr>).
+## Tarifs {#tarifs}
+
+Nos tarifs varient en fonction de la **formule choisie** (nombre de cours,
+fréquence, type de pratique, etc.). Nous proposons également des **tarifs
+adaptés** pour les étudiants, demandeurs d’emploi et retraités.
+
+➡️ Pour obtenir une information personnalisée, merci de vous rapprocher de
+l’enseignant au <a href="tel:06 03 59 27 58">06 03 59 27 58</a>.
 
 ## Stages {#stages}
 
@@ -95,5 +136,10 @@ réservés aux _võ sinh_ (pratiquants d’arts martiaux) de l’école.
 **Début juillet** nous nous retrouvons pour un **stage d’été de six jours**
 pendant lequel nous pratiquons notre art de manière intensive. Ces stages
 peuvent être ouverts aux grands débutants, sur demande auprès de l’enseignant.
+
+Nos stages **sont ouverts à toutes et tous**, même aux personnes non inscrites
+aux cours réguliers. Ils offrent une belle opportunité de découvrir notre école,
+approfondir sa pratique ou simplement vivre une expérience enrichissante dans un
+cadre bienveillant. Chacun est le bienvenu, **quel que soit son niveau**.
 
 Les dates des stages seront communiquées ici prochainement. {.box}
