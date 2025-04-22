@@ -374,10 +374,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@picocss/pico@npm:~1.5.0":
-  version: 1.5.13
-  resolution: "@picocss/pico@npm:1.5.13"
-  checksum: 10c0/1894d81a2f4528ed31977d0be996a0f08221ef3ba43d727e01e8d6d6212db81dbf1da5c74e1758e0b00c0abe487a93c583edf152e222e57fdb6b73274c87aa47
+"@picocss/pico@npm:~2.1.1":
+  version: 2.1.1
+  resolution: "@picocss/pico@npm:2.1.1"
+  checksum: 10c0/7a088119538765937abd8effcfb348ea4a768101c21c4e139c28f28019dd3a47478ea0ddbff5bc1d76f10c50c98741f73f6e27ad52b1abd50a27f3840f2d330a
   languageName: node
   linkType: hard
 
@@ -1716,7 +1716,7 @@ __metadata:
   resolution: "monjo.pro@workspace:."
   dependencies:
     "@11ty/eleventy": "npm:^3.0.0"
-    "@picocss/pico": "npm:~1.5.0"
+    "@picocss/pico": "npm:~2.1.1"
     js-yaml: "npm:^4.1.0"
     markdown-it-attrs: "npm:^4.3.1"
     markdown-it-footnote: "npm:^4.0.0"
