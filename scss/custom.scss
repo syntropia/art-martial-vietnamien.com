@@ -1,22 +1,5 @@
 @use "sass:map";
 
-// Bugfix in vertical navs
-aside {
-  nav {
-    ol,
-    ul {
-      &:first-of-type {
-        margin-left: 0;
-      }
-      &:last-of-type {
-        margin-right: 0;
-      }
-    }
-  }
-}
-
-// ---------- Custom styles --------------------------------------------------
-
 html {
   scroll-padding-top: calc(var(--spacing) * 6);
   scroll-behavior: smooth;
@@ -30,10 +13,43 @@ iframe {
   margin-bottom: var(--typography-spacing-vertical);
 }
 
+main.container {
+  p,
+  ul,
+  ol,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    max-width: 50rem;
+    margin-inline: auto;
+  }
+}
+
+.horaires {
+  margin-block: 3rem;
+  h3 {
+    font-size: 1.25rem;
+    --typography-spacing-vertical: 1rem;
+  }
+  p {
+    --typography-spacing-vertical: 1rem;
+  }
+  p,
+  a {
+    font-size: 1rem;
+  }
+  small {
+    font-size: 0.9rem;
+  }
+}
+
 // Responsive helpers ----------
 
-@if map.get($breakpoints, "lg") {
-  @media (min-width: map.get($breakpoints, "lg")) {
+@if map.get($breakpoints, "md") {
+  @media (min-width: map.get($breakpoints, "md")) {
     .to-tablet {
       display: none !important;
     }
@@ -52,6 +68,9 @@ iframe {
   @media (max-width: map.get($breakpoints, "lg")) {
     .from-desktop {
       display: none !important;
+    }
+    .contact-card {
+      width: 100%;
     }
   }
 }
