@@ -15,21 +15,18 @@
         <hgroup>
           <h1>{{title}}</h1>
           <p>{{subtitle}}</p>
-          {% if nav %}
-            <nav>
-              <ul>
-                {% for title, link in nav %}
-                  <li>
-                    <a href="{{link}}">{{title}}</a>
-                  </li>
-                  {% if not loop.last %}
-                    <li>•</li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </nav>
-          {% endif %}
         </hgroup>
+        {% if nav %}
+          <nav>
+            <ul>
+              {% for title, link in nav %}
+                <li>
+                  <a href="{{link}}">{{title}}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        {% endif %}
       </div>
     </header>
 

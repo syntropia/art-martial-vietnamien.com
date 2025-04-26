@@ -9,44 +9,6 @@ html {
   --font-size-lead: 1.2rem;
 }
 
-iframe {
-  margin-bottom: var(--typography-spacing-vertical);
-}
-
-main.container {
-  p,
-  blockquote,
-  ul,
-  ol,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    max-width: 40rem;
-    margin-inline: auto;
-  }
-}
-
-.horaires {
-  margin-block: 3rem;
-  h3 {
-    font-size: 1.25rem;
-    --typography-spacing-vertical: 1rem;
-  }
-  p {
-    --typography-spacing-vertical: 1rem;
-  }
-  p,
-  a {
-    font-size: 1rem;
-  }
-  small {
-    font-size: 0.9rem;
-  }
-}
-
 // Responsive helpers ----------
 
 @if map.get($breakpoints, "md") {
@@ -163,7 +125,7 @@ body > nav:first-of-type {
 
 // Hero header ----------
 
-.hero {
+header.hero {
   --bg-gradient: linear-gradient(
     0deg,
     black 0%,
@@ -173,25 +135,109 @@ body > nav:first-of-type {
   background-color: var(--card-background-color);
   background-image: var(--bg-gradient);
   background-position: center;
-  background-size: cover;
-  padding: calc(var(--block-spacing-vertical) * 4) 0 var(--spacing);
+  background-size: contain;
+  padding: calc(var(--block-spacing-vertical) * 4) 0
+    calc(var(--block-spacing-vertical) / 2);
+
+  hgroup,
+  nav {
+    max-width: 40rem;
+    margin-inline: auto;
+  }
 
   hgroup > p {
     color: var(--muted-color);
     margin-bottom: 0;
   }
+
+  nav {
+    ul {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: var(--spacing);
+      margin: 0;
+      padding: 0;
+
+      li,
+      a {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@if map.get($breakpoints, "md") {
+  @media (min-width: map.get($breakpoints, "md")) {
+    header.hero {
+      nav {
+        ul {
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: var(--spacing);
+        }
+      }
+    }
+  }
 }
 
 // Main content ----------
-
-body header nav li a {
-  text-align: center;
-}
 
 main section {
   > h2 {
     margin-top: calc(var(--block-spacing-vertical) * 2);
     border-bottom: 1px solid var(--muted-color);
+  }
+}
+
+main.container {
+  iframe {
+    margin-bottom: var(--typography-spacing-vertical);
+  }
+
+  p,
+  blockquote,
+  ul,
+  ol,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    max-width: 40rem;
+    margin-inline: auto;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+
+      &:before {
+        content: "–";
+        position: absolute;
+        margin-left: calc(-1 * var(--spacing));
+      }
+    }
+  }
+
+  .horaires {
+    margin-block: 3rem;
+    h3 {
+      font-size: 1.25rem;
+      --typography-spacing-vertical: 1rem;
+    }
+    p {
+      --typography-spacing-vertical: 1rem;
+    }
+    p,
+    a {
+      font-size: 1rem;
+    }
+    small {
+      font-size: 0.9rem;
+    }
   }
 }
 
@@ -273,14 +319,14 @@ body > footer {
 
 .float-left {
   float: left;
-  max-width: 30%;
-  margin-right: var(--spacing-large);
+  max-width: 35%;
+  padding-right: var(--spacing-large);
 }
 
 .float-right {
   float: right;
-  max-width: 30%;
-  margin-left: var(--spacing-large);
+  max-width: 35%;
+  padding-left: var(--spacing-large);
 }
 
 .clear {
@@ -293,10 +339,6 @@ h3,
 h4,
 h5 {
   clear: both;
-}
-
-.center {
-  text-align: center;
 }
 
 small {
@@ -312,19 +354,6 @@ figure {
   margin: var(--spacing) auto;
 }
 
-.no-margin {
-  margin: 0 !important;
-}
-
-.no-padding {
-  padding: 0 !important;
-}
-
-.lead {
-  font-size: var(--font-size-lead);
-  margin: var(--block-spacing-vertical) var(--block-spacing-horizontal);
-}
-
 .box {
   width: 75%;
   font-size: var(--font-size-lead);
@@ -338,41 +367,5 @@ figure {
 
   a[role="button"] {
     margin: var(--spacing) var(--spacing) 0;
-  }
-}
-
-.customer {
-  width: 100%;
-  font-size: var(--font-size-lead);
-  margin: 0;
-  padding: var(--spacing-large);
-  overflow: hidden;
-  border-radius: var(--border-radius);
-  background: var(--card-background-color);
-  box-shadow: var(--card-box-shadow);
-  transition: all 125ms ease-in;
-
-  a[role="button"] {
-    margin: var(--spacing) var(--spacing) 0;
-  }
-
-  &:hover {
-    transform: scale(1.05);
-  }
-
-  > figure {
-    float: left;
-    height: 100%;
-    margin-right: var(--grid-spacing-horizontal);
-  }
-  > section {
-    margin-bottom: 0;
-    h4 {
-      clear: none;
-      margin-bottom: 0;
-    }
-    p {
-      margin-bottom: 0;
-    }
   }
 }
