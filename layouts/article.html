@@ -5,32 +5,29 @@
   <body>
     {% include "_menu.html" %}
 
-    <header
-      data-theme="dark"
-      class="hero"
-      {%
+    <header data-theme="dark" class="hero" {%
       if
       image
-      %}
-      style="background-image: var(--bg-gradient), url('{{image}}')"
-      {%
+      %} style="background-image: var(--bg-gradient), url('{{image}}')" {%
       endif
-      %}
-    >
+      %}>
       <div class="container">
         <hgroup>
           <h1>{{title}}</h1>
           <p>{{subtitle}}</p>
           {% if nav %}
-          <nav>
-            <ul>
-              {% for title,link in nav %}
-              <li><a href="{{link}}">{{title}}</a></li>
-              {% if not loop.last %}
-              <li>•</li>
-              {% endif %} {% endfor %}
-            </ul>
-          </nav>
+            <nav>
+              <ul>
+                {% for title, link in nav %}
+                  <li>
+                    <a href="{{link}}">{{title}}</a>
+                  </li>
+                  {% if not loop.last %}
+                    <li>•</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </nav>
           {% endif %}
         </hgroup>
       </div>

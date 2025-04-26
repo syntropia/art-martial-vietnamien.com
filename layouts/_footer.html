@@ -3,16 +3,20 @@
 
   <div class="grid from-desktop">
     {% for entry in menu %}
-    <div>
-      <h6><a href="{{entry.url}}">{{entry.label}}</a></h6>
-      {% if entry.anchors %}
-      <ul>
-        {% for anchor_label, anchor_url in entry.anchors %}
-        <li><a href="{{entry.url}}#{{anchor_url}}">{{anchor_label}}</a></li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </div>
+      <div>
+        <h6>
+          <a href="{{entry.url}}">{{entry.label}}</a>
+        </h6>
+        {% if entry.anchors %}
+          <ul>
+            {% for anchor_label, anchor_url in entry.anchors %}
+              <li>
+                <a href="{{entry.url}}#{{anchor_url}}">{{anchor_label}}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
 </footer>

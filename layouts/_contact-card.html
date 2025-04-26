@@ -1,13 +1,7 @@
-<article
-  id="contact"
-  class="contact-card"
-  data-theme="dark"
-  itemscope
-  itemtype="https://schema.org/LocalBusiness"
->
+<article id="contact" class="contact-card" data-theme="dark" itemscope="itemscope" itemtype="https://schema.org/LocalBusiness">
   <header>
     <a class="logo" href="{{site.home}}" aria-label="Accueil">
-      <img itemprop="image" src="{{site.logo}}" alt="Logo d'{{site.title}}" />
+      <img itemprop="image" src="{{site.logo}}" alt="Logo d'{{site.title}}"/>
     </a>
     <hgroup>
       <h2 class="title" itemprop="name">
@@ -18,22 +12,22 @@
   </header>
   <h6>Contact</h6>
   <p itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address">
-    <span itemprop="streetAddress">{{contact.address}}</span><br />
+    <span itemprop="streetAddress">{{contact.address}}</span><br/>
     <span itemprop="postalCode">{{contact.postal_code}}</span>
-    <span itemprop="addressLocality">{{contact.city}}</span><br />
-    <small
-      ><a href="https://goo.gl/maps/UqTwSrKWXTnw8Q8y5">Itinéraire</a></small
-    >
+    <span itemprop="addressLocality">{{contact.city}}</span><br/>
+    <small >
+      <a href="https://goo.gl/maps/UqTwSrKWXTnw8Q8y5">Itinéraire</a>
+    </small >
   </p>
   <p>
-    <a href="tel:{{contact.phone}}" itemprop="telephone">{{contact.phone}}</a
-    ><br />
-    <a href="mailto:{{contact.email}}" itemprop="email">{{contact.email}}</a
-    ><br />
+    <a href="tel:{{contact.phone}}" itemprop="telephone">{{contact.phone}}</a ><br/>
+    <a href="mailto:{{contact.email}}" itemprop="email">{{contact.email}}</a ><br/>
     <a href="{{contact.website}}" itemprop="url">{{contact.website}}</a>
   </p>
 
   {% if subsite %}
-  <footer>Découvrez <a href="{{subsite.url}}">{{subsite.label}}</a></footer>
+    <footer>Découvrez
+      <a href="{{subsite.url}}">{{subsite.label}}</a>
+    </footer>
   {% endif %}
 </article>
