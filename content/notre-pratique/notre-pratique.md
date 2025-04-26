@@ -19,6 +19,19 @@ les arts martiaux vietnamiens des courants _Bình Định_ et _Thiếu Lâm_. Il
 codifié les principes et les mouvements de base et l’a enrichi jusqu’à son décès
 en 1999.
 
+> « Je pratique cet art depuis l’âge de 17 ans, soit plus de 35 années de
+> dévouement et d’expérience. Cette longue pratique m’a permis d’approfondir ma
+> compréhension des techniques physiques et des principes énergétiques qui
+> fondent notre discipline.
+>
+> L’enseignement que je transmets aujourd'hui est le fruit de plusieurs
+> décennies de recherche, de transmission et d'engagement, où l'art martial
+> devient bien plus qu’un simple combat. C’est un véritable chemin de vie, un
+> moyen d’éveil, de transformation et de croissance personnelle, intégrant des
+> dimensions physiques, spirituelles et philosophiques. »
+>
+> — [Adda Keliche](/notre-ecole/#le-fondateur)
+
 ## L'enseignement {#enseignement}
 
 Bien qu’il soit un tout indivisible, notre enseignement est structuré en trois

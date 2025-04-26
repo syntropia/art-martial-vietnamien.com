@@ -15,6 +15,7 @@ iframe {
 
 main.container {
   p,
+  blockquote,
   ul,
   ol,
   h1,
@@ -23,7 +24,7 @@ main.container {
   h4,
   h5,
   h6 {
-    max-width: 50rem;
+    max-width: 40rem;
     margin-inline: auto;
   }
 }
