@@ -3,6 +3,7 @@ import markdownItAttrs from "markdown-it-attrs"
 import markdownItHeaderSections from "markdown-it-header-sections"
 import markdownItFootnote from "markdown-it-footnote"
 import markdownItImageFigures from "markdown-it-image-figures"
+import { HtmlBasePlugin } from "@11ty/eleventy"
 
 export default function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false) // Because content/css is generated, thus in .gitignore
@@ -20,9 +21,12 @@ export default function (eleventyConfig) {
       .use(markdownItImageFigures, { figcaption: true, lazy: true })
   })
 
+  eleventyConfig.addPlugin(HtmlBasePlugin)
+
   return {
     templateFormats: ["html", "md"],
     htmlTemplateEngine: "njk",
+    pathPrefix: process.env.PATH_PREFIX,
     dir: {
       input: "content",
       includes: "../layouts", // Relative to input
