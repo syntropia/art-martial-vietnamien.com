@@ -17,6 +17,12 @@ menu:
     anchors:
       L'enseignement: enseignement
       Les stages: stages
+  - label: Nos racines
+    url: /nos-racines
+    anchors:
+      Les arts martiaux vietnamiens en France: arts-martiaux-vietnamiens-en-france
+      Maître Nguyễn Dân Phú: maitre-nguyen-dan-phu
+      Le võ: le-vo
   - label: Horaires et lieux
     url: /informations-pratiques
     anchors:
