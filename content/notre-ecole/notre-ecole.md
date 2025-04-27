@@ -2,7 +2,7 @@
 layout: article
 title: Notre école
 subtitle: Une véritable école traditionnelle
-image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
+image: photo-groupe-fete-du-tet-2025.jpg
 nav:
   Le fondateur: "#le-fondateur"
   Les grades: "#les-grades"

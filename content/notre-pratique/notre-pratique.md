@@ -2,7 +2,7 @@
 layout: article
 title: Notre pratique
 subtitle: Un art martial descendant du style Thanh Long
-image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
+image: notre-pratique.jpg
 nav:
   L'enseignement: "#presentation"
   Interne: "#interne"

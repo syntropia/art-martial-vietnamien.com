@@ -2,7 +2,7 @@
 layout: article
 title: Nos racines
 subtitle: Une véritable école traditionnelle
-image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
+image: maitres-vietvodao-2.jpg
 nav:
   Les arts martiaux vietnamiens en France: "#arts-martiaux-vietnamiens-en-france"
   Maître Nguyễn Dân Phú: "#maitre-nguyen-dan-phu"
@@ -66,7 +66,8 @@ le 15 décembre 2008.
 
 ## Maître Nguyễn Dân Phú {#maitre-nguyen-dan-phu}
 
-![](maitre-nguyen-dan-phu.jpg "Maître Nguyễn Dân Phú") {.float-left}
+![Photo de Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu.jpg "Maître Nguyễn Dân Phú")
+{.float-left}
 
 Maître Nguyễn Dân Phú naît en 1911 dans la maison de ses ancêtres à Đa Ngưu, un
 village à 30 kilomètres de Hà Nội mais passe toute la première partie de sa vie
