@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Horaires et lieux
-subtitle: Toutes les informations pratiques
-#image: https://source.unsplash.com/Xl-ilWBKJNk/1920x1207
+title: Infos pratiques
+subtitle: Où et quand nous pratiquons
+image: maison-pour-tous-marcel-pagnol.jpg
 nav:
   Horaires: "#horaires"
   Lieux: "#lieux-cours"

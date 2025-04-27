@@ -23,8 +23,8 @@ menu:
       Les arts martiaux vietnamiens en France: arts-martiaux-vietnamiens-en-france
       Maître Nguyễn Dân Phú: maitre-nguyen-dan-phu
       Le võ: le-vo
-  - label: Horaires et lieux
-    url: /informations-pratiques
+  - label: Infos pratiques
+    url: /infos-pratiques
     anchors:
       Horaires: horaires
       Lieux: lieux
