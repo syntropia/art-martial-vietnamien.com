@@ -197,18 +197,20 @@ et de **notions théoriques sur les méridiens d’acupuncture**.
 
 ## Les stages {#stages}
 
-Notre école organise **plusieurs stages pendant l’année**. Certains sont
-consacrés à l’art martial tel que nous le pratiquons habituellement et sont
-réservés aux _võ sinh_ (pratiquants d’arts martiaux) de l’école.
+Notre école organise **plusieurs stages pendant l’année**. Nos stages **sont
+ouverts à toutes et tous**, même aux personnes non inscrites aux cours
+réguliers. Ils offrent une belle opportunité de découvrir notre école,
+approfondir sa pratique ou simplement vivre une expérience enrichissante dans un
+cadre bienveillant. Chacun est le bienvenue, **quel que soit son niveau**.
 
 **Début juillet** nous nous retrouvons pour un **stage d’été de six jours**
 pendant lequel nous pratiquons notre art de manière intensive. Ces stages
 peuvent être ouverts aux grands débutants, sur demande auprès de l’enseignant.
 
-Pour connaître les dates des prochains stages, consultez-en
-[le calendrier](/informations-pratiques/#stages).
+Pour connaître les dates des prochains stages, consultez le
+[calendrier de la saison](/informations-pratiques/#calendrier-saison).
 
-### Stages Chấn Điện (week-ends)
+### Stages Chấn Điện (week-ends) {#stages-chan-dien}
 
 Plusieurs fois dans l’année, les _võ sinh_ de l’école se retrouvent pour un
 **week-end de pratique intensive**.
@@ -228,11 +230,10 @@ que les moments de pause.
 
 **Programme** :
 
-- samedi 15h-19h : externe
-- dimanche 9h-12h : interne
-- dimanche 14h-18h : armes
+- samedi : de 14h30 à 19h ;
+- dimanche : de 8h30 à 12h puis de 14h à 19h.
 
-### Stage d’été
+### Stage d’été {#stage-ete}
 
 ![Deux élèves s'entraînant, en contre-jour d'un coucher de soleil sur un lac](stage-ete.jpg "Entraînement au coucher du soleil lors du stage d'été")
 {.float-right}
@@ -264,3 +265,8 @@ acquises pendant l’année**.
 La **seconde partie** de la journée est dédiée à l’**étude du combat**. Le
 travail commence par des exercices simples et évolue progressivement jusqu’au
 **combat libre**, dans le respect de l’intégrité physique des partenaires.
+
+### Stages de haut gradés
+
+Réservés aux ceintures noires, ces stages ont lieu une fois par mois, sur
+inscription.

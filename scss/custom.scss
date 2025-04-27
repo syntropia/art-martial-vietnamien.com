@@ -233,11 +233,15 @@ main.container {
     }
     p,
     a {
-      font-size: 1rem;
+      font-size: 1em;
     }
     small {
       font-size: 0.9rem;
     }
+  }
+
+  .footnotes-sep {
+    margin-top: var(--block-spacing-vertical);
   }
 }
 
