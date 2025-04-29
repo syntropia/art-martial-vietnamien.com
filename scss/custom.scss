@@ -245,7 +245,7 @@ main.container {
   }
 }
 
-// Contact card ----------
+// Footer ----------
 
 @keyframes glowing {
   from {
@@ -256,66 +256,88 @@ main.container {
   }
 }
 
-#contact:target {
-  animation: 1s 6 alternate glowing;
-}
-
-.contact-card {
-  margin: 0;
-
-  header {
-    padding: 0;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-
-    .logo {
-      flex: none;
-    }
-
-    hgroup {
-      margin: 0;
-      padding: 0.25rem 1rem;
-      p {
-        margin: 0;
-      }
-      .title {
-        font-size: var(--font-size-lead);
-      }
-      .subtitle {
-        font-size: 0.8rem;
-      }
-    }
-  }
-
-  footer {
-    margin-top: var(--spacing);
-    padding-top: var(--spacing);
-    padding-bottom: var(--spacing);
-  }
-}
-
-// Footer ----------
-
 body > footer {
   background-color: var(--background-color);
   border-top: 1px solid var(--muted-color);
   padding: var(--spacing-large);
+
   display: flex;
+  flex-direction: column;
   gap: 3rem;
-  align-items: center;
 
-  h6 {
-    margin-bottom: var(--spacing-small);
+  #contact {
+    margin: 0;
+    min-width: 420px;
+    overflow: hidden;
+    padding-bottom: 0px;
+
+    &:target {
+      animation: 1s 6 alternate glowing;
+    }
+
+    header {
+      padding: 0;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+
+      .logo {
+        flex: none;
+      }
+
+      hgroup {
+        margin: 0;
+        padding: 0.25rem 1rem;
+        p {
+          margin: 0;
+        }
+        .title {
+          font-size: var(--font-size-lead);
+        }
+        .subtitle {
+          font-size: 0.8rem;
+        }
+      }
+    }
   }
 
-  .main-card {
-    flex: 3 1;
+  #sitemap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 3rem;
+
+    h6 {
+      margin-bottom: var(--spacing-small);
+    }
   }
 
-  div.grid {
-    flex: 5 0;
-    --grid-spacing-horizontal: 3rem;
+  #private-space {
+    grid-column: 1 / 3;
+  }
+}
+
+@if map.get($breakpoints, "lg") {
+  @media (min-width: map.get($breakpoints, "lg")) {
+    body > footer {
+      --font-size: 0.8em;
+      flex-direction: row;
+      #sitemap {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #private-space {
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@if map.get($breakpoints, "xl") {
+  @media (min-width: map.get($breakpoints, "xl")) {
+    body > footer {
+      #sitemap {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
   }
 }
 

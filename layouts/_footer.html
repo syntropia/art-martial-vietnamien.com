@@ -1,7 +1,7 @@
 <footer data-theme="dark">
   {% include "_contact-card.html" %}
 
-  <div class="grid from-desktop">
+  <div id="sitemap">
     {% for entry in menu %}
       <div>
         <h6>
@@ -18,5 +18,6 @@
         {% endif %}
       </div>
     {% endfor %}
+    <a id="private-space" role="button" class="outline" href="{{ private_space.url }}">{{ private_space.label }}</a>
   </div>
 </footer>

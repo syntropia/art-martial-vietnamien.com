@@ -5,6 +5,10 @@ site:
   home: /
   stylesheet: styles.css
 
+private_space:
+  label: 🔒 Espace élèves
+  url: "#"
+
 menu:
   - label: Notre école
     url: /notre-ecole
@@ -39,7 +43,3 @@ contact:
   phone: 06 03 59 27 58
   email: montpelliervvd@art-martial-vietnamien.com
   website: www.art-martial-vietnamien.com
-
-subsite:
-  url: https://www.espacevital.fr/
-  label: nos formations professionnelles
