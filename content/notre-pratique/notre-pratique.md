@@ -166,18 +166,31 @@ des qualités et un travail énergétique qui lui sont propres**.
 Les armes suivantes sont étudiées :
 
 <div class="grid">
-  <figure><img src="baton-long.jpg"><figcaption>Bâton long</figcaption></figure>
-  <figure><img src="baton-court.jpg"><figcaption>Bâton court</figcaption></figure>
-  <figure><img src="epee.jpg"><figcaption>Épée</figcaption></figure>
-  <figure><img src="sabre.jpg"><figcaption>Sabre</figcaption></figure>
-  <figure><img src="fleau.jpg"><figcaption>Fléau</figcaption></figure>
+  
+![](baton-long.jpg "Bâton long")
+
+![](baton-court.jpg "Bâton court")
+
+![](epee.jpg "Épée")
+
+![](sabre.jpg "Sabre")
+
+![](fleau.jpg "Fléau")
+
 </div>
+
 <div class="grid">
-  <figure><img src="armes-doubles.jpg"><figcaption>Armes doubles</figcaption></figure>
-  <figure><img src="dai-dao.jpg"><figcaption>Đại đao</figcaption></figure>
-  <figure><img src="lance.jpg"><figcaption>Lance</figcaption></figure>
-  <figure><img src="fleau-trois-branches.jpg"><figcaption>Tri-bâton</figcaption></figure>
-  <figure><img src="song-dao.jpg"><figcaption>Song đao</figcaption></figure>
+  
+![](armes-doubles.jpg "Armes doubles")
+
+![](dai-dao.jpg "Đại đao (hallebarde)")
+
+![](lance.jpg "Lance")
+
+![](fleau-trois-branches.jpg "Tri-bâton")
+
+![](song-dao.jpg "Song đao")
+
 </div>
 
 ### Culture, philosophie et médecine {#culture-philosophie-medecine}

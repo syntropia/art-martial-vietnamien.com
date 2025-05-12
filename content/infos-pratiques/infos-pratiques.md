@@ -94,8 +94,6 @@ Voici les dates importantes pour la **saison 2024-2025**:
 - du <time datetime="">**(date) au (date) juillet 2025**</time>: [stage d’été][]
   (au [lac du Salagou](https://www.campinglacdusalagou.fr/))
 
-**⚠️ À FAIRE Fred**: ajouter des micro-formats pour les événements
-
 [stage Chấn Điện]: /notre-pratique#stages-chan-dien
 [stage d’été]: /notre-pratique#stage-ete
 

@@ -11,7 +11,7 @@ nav:
 
 L’école **Chấn Điện Võ Đường** (association _Montpellier Viet Vo Dao_) a été
 fondée en 2003 par [Adda Keliche](#le-fondateur) dans le but d’enseigner et de
-promouvoir un art martial vietnamien issu du style [Thanh Long](./todo).
+promouvoir un art martial vietnamien issu du style _Thanh Long_.
 
 C’est une véritable **école traditionnelle** dans laquelle chacun, sans
 distinction, peut suivre une formation complète qui aborde tous les aspects de
@@ -33,7 +33,8 @@ S-12-2010 en date du 14 mai 2010.
 
 ## Le fondateur {#le-fondateur}
 
-![Adda Keliche en posture de garde](adda.jpg "Adda Keliche") {.float-left}
+![](adda2.jpg "Adda Keliche")
+{.float-right}
 
 **Adda Keliche** est un expert en arts martiaux vietnamiens, reconnu Maître 6ᵉ
 Dang (Dan), fondateur de Chấn Điện Võ Đường – l’une des rares écoles
@@ -49,37 +50,23 @@ discipline intérieure et de dépassement de ses propres peurs, que les
 **pratiques liées à la santé et au bien-être** : Chi Kong, Tai Chi, méditation,
 respiration, circulation de l’énergie vitale.
 
+![Adda Keliche maniant une hallebarde](adda3.jpg)
+{.float-left}
+
 Il enseigne également le maniement des **armes traditionnelles**, et intègre à
 sa pédagogie des savoirs issus des lois universelles, de la médecine
 traditionnelle chinoise, ainsi que des techniques de massage, considérés comme
 des éléments à part entière de la pratique martiale.
 
-Parallèlement, Adda Keliche dirige Espace Vital, un organisme de formation
-spécialisé dans la gestion du stress, des conflits et des agressions, où il met
-à profit son expérience martiale au service de la prévention des risques
-psychosociaux (RPS). Formateur référencé par la CARSAT, il intervient dans de
-nombreuses structures en accompagnant les professionnels vers plus de maîtrise,
-de sécurité et d’équilibre au travail. Son double parcours – dans la voie
-martiale traditionnelle et la formation en entreprise – en fait une figure
-singulière et engagée, au carrefour de la transmission, du soin et de la
-transformation intérieure.
-
-**Adda Keliche** est expert en arts martiaux (ceinture noire 5<sup>e</sup> dang)
-et [formateur en gestion de stress et agression](/pro).
-
-Il pratique depuis 1990 un art martial vietnamien, qu’il enseigne depuis
-septembre 2003 en créant l’association _Montpellier Viet Vo Dao_ et nomme son
-école "**Chấn Điện Võ Đường**". Ce [nom et le symbole](#nom-et-symbole) qui
-l’accompagne représentent pleinement l’esprit de sa pratique.
-
-En 2008, la
-<abbr title="Fédération française de karaté et disciplines associées">F.F.K.D.A.</abbr>
-reçoit la délégation ministérielle ; Adda Keliche y affilie son école. Dans ce
-cadre, il est titulaire du **Diplôme d'&Eacute;tat**, spécialité « karaté et
-disciplines associées ».{.clear}
-
-![Adda Keliche dans une posture de Taï Chi](adda2.jpg)
-![Adda Keliche maniant une hallebarde](adda3.jpg) {.grid}
+Parallèlement, Adda Keliche dirige [Espace Vital](https://espacevital.fr), un
+organisme de formation spécialisé dans la gestion du stress, des conflits et des
+agressions, où il met à profit son expérience martiale au service de la
+prévention des risques psychosociaux (RPS). Formateur référencé par la CARSAT,
+il intervient dans de nombreuses structures en accompagnant les professionnels
+vers plus de maîtrise, de sécurité et d’équilibre au travail. Son double
+parcours – dans la voie martiale traditionnelle et la formation en entreprise –
+en fait une figure singulière et engagée, au carrefour de la transmission, du
+soin et de la transformation intérieure.
 
 ## Les grades {#les-grades}
 
@@ -101,9 +88,15 @@ verte est plus long car le _võ sinh_ doit avoir formé son corps et assimilé l
 travail du premier cercle avant de pouvoir accéder à l’enseignement supérieur du
 deuxième cercle.
 
+<div class="grid">
+
 ![Ceinture blanche avec deux barettes](ceinture2cap.jpg)
+
 ![Ceinture blanche avec quatre barettes](ceinture4cap.jpg)
-![Ceinture verte](ceintureverte.jpg) {.grid}
+
+![Ceinture verte](ceintureverte.jpg)
+
+</div>
 
 ## Le nom et le symbole de notre école {#nom-et-symbole}
 

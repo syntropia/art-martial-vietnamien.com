@@ -90,12 +90,13 @@ probablement les plus importants à ses yeux car ils personnifièrent les deux
 courants principaux des arts martiaux dans le pays, le _Thiếu Lâm_ et le _võ_
 traditionnel vietnamien (_Bình Định_ par exemple).
 
-![](maitre-nguyen-dan-phu-sabre.jpg "Maître Nguyễn Dân Phú") {.float-right}
-
 Durant toute cette période, Nguyễn Dân Phú vit une jeunesse dorée partagée entre
 l’entraînement et ses amis, avec qui il participera à de nombreux combats entre
 pratiquants de _võ_ ou pour défendre l’honneur des jeunes filles de son
 quartier. Il acquiert ainsi une réputation d’excellent combattant à Hà Nội.
+
+![Photo de Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-sabre.jpg "Maître Nguyễn Dân Phú")
+{.float-right}
 
 En 1940, il s’embarque pour la France en tant qu’interprète pour les contingents
 d’ouvriers que le gouvernement français fait venir d’Indochine pour travailler

@@ -16,7 +16,7 @@ export default function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (md) => {
     md.quotes = ["«\xA0", "\xA0»", "‘", "’"]
     md.use(markdownItAttrs)
-      .use(markdownItHeaderSections)
+      // .use(markdownItHeaderSections)
       .use(markdownItFootnote)
       .use(markdownItImageFigures, { figcaption: true, lazy: true })
   })
