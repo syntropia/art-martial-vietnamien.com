@@ -30,8 +30,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        env:
-          PATH_PREFIX: art-martial-vietnamien.com
         run: yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
