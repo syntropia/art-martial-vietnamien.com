@@ -12,7 +12,7 @@
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-header-sections": "^1.0.0",
     "markdown-it-image-figures": "^2.1.1",
-    "npm-run-all2": "^8.0.1",
+    "npm-run-all2": "^8.0.4",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "sass": "^1.88.0"
