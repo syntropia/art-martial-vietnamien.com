@@ -1,9 +1,8 @@
+import { HtmlBasePlugin } from "@11ty/eleventy"
 import * as yaml from "js-yaml"
 import markdownItAttrs from "markdown-it-attrs"
-import markdownItHeaderSections from "markdown-it-header-sections"
 import markdownItFootnote from "markdown-it-footnote"
 import markdownItImageFigures from "markdown-it-image-figures"
-import { HtmlBasePlugin } from "@11ty/eleventy"
 
 export default function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false) // Because content/css is generated, thus in .gitignore
@@ -16,7 +15,6 @@ export default function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (md) => {
     md.quotes = ["«\xA0", "\xA0»", "‘", "’"]
     md.use(markdownItAttrs)
-      // .use(markdownItHeaderSections)
       .use(markdownItFootnote)
       .use(markdownItImageFigures, { figcaption: true, lazy: true })
   })

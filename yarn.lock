@@ -336,7 +336,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@picocss/pico@npm:~1.5.0":
+"@picocss/pico@npm:~1.5.13":
   version: 1.5.13
   resolution: "@picocss/pico@npm:1.5.13"
   checksum: 10c0/1894d81a2f4528ed31977d0be996a0f08221ef3ba43d727e01e8d6d6212db81dbf1da5c74e1758e0b00c0abe487a93c583edf152e222e57fdb6b73274c87aa47
@@ -1437,13 +1437,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-header-sections@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "markdown-it-header-sections@npm:1.0.0"
-  checksum: 10c0/570a8450c1b3f15d6135dd1b071b62f2d076d1ca8a9bebc01d3edde3d51dd8ec18147903b98667ecaa823e629e333e324dbb280595200d1a1cc9c9d5a70c7e27
-  languageName: node
-  linkType: hard
-
 "markdown-it-image-figures@npm:^2.1.1":
   version: 2.1.1
   resolution: "markdown-it-image-figures@npm:2.1.1"
@@ -1654,11 +1647,10 @@ __metadata:
   resolution: "monjo.pro@workspace:."
   dependencies:
     "@11ty/eleventy": "npm:^3.1.1"
-    "@picocss/pico": "npm:~1.5.0"
+    "@picocss/pico": "npm:~1.5.13"
     js-yaml: "npm:^4.1.0"
     markdown-it-attrs: "npm:^4.3.1"
     markdown-it-footnote: "npm:^4.0.0"
-    markdown-it-header-sections: "npm:^1.0.0"
     markdown-it-image-figures: "npm:^2.1.1"
     npm-run-all2: "npm:^8.0.4"
     prettier: "npm:^3.5.3"

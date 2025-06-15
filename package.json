@@ -6,11 +6,10 @@
   "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.1",
-    "@picocss/pico": "~1.5.0",
+    "@picocss/pico": "~1.5.13",
     "js-yaml": "^4.1.0",
     "markdown-it-attrs": "^4.3.1",
     "markdown-it-footnote": "^4.0.0",
-    "markdown-it-header-sections": "^1.0.0",
     "markdown-it-image-figures": "^2.1.1",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.5.3",
