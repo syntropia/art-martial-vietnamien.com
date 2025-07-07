@@ -136,9 +136,13 @@ header.hero {
   background-color: var(--card-background-color);
   background-image: var(--bg-gradient);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   padding: calc(var(--block-spacing-vertical) * 4) 0
     calc(var(--block-spacing-vertical) / 2);
+
+  &.home {
+    background-position: center right;
+  }
 
   hgroup,
   nav {
@@ -433,13 +437,16 @@ body > footer {
   max-width: 35%;
   margin-right: var(--spacing-large);
 
-  transform: perspective(1500px) rotateY(15deg);
-  border-radius: var(--border-radius);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  transition: transform 1s ease 0s;
+  > img {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
-  &:hover {
-    transform: perspective(3000px) rotateY(5deg);
+    transition: transform 1s ease 0s;
+    transform: perspective(1500px) rotateY(15deg);
+    &:hover {
+      transform: perspective(3000px) rotateY(5deg);
+    }
   }
 }
 
@@ -448,13 +455,16 @@ body > footer {
   max-width: 35%;
   margin-left: var(--spacing-large);
 
-  transform: perspective(1500px) rotateY(-15deg);
-  border-radius: var(--border-radius);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  transition: transform 1s ease 0s;
+  > img {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
-  &:hover {
-    transform: perspective(3000px) rotateY(-5deg);
+    transition: transform 1s ease 0s;
+    transform: perspective(1500px) rotateY(-15deg);
+    &:hover {
+      transform: perspective(3000px) rotateY(-5deg);
+    }
   }
 }
 

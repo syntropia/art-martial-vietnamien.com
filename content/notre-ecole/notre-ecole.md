@@ -2,7 +2,7 @@
 layout: article
 title: Notre école
 subtitle: Une véritable école traditionnelle
-image: photo-groupe-fete-du-tet-2025.jpg
+image: ecole-chan-dien.jpg
 nav:
   Le fondateur: "#le-fondateur"
   Les grades: "#les-grades"
@@ -22,7 +22,7 @@ aucune visée compétitive. Chacun vient chercher ce qui lui convient — métho
 défense, pratique de santé — et s’implique comme il l’entend, loisir pour
 certains, art de vivre et voie à suivre pour d’autres.
 
-[![Symbole de l'école Chấn Điện Võ Đường](/images/chandienbordnoir.jpg "Le symbole de notre école")](#nom-et-symbole)
+[![Symbole de l'école Chấn Điện Võ Đường](/symbole-chan-dien.jpg "Le symbole de notre école")](#nom-et-symbole)
 
 L’école est **ouverte à tous à partir de 5 ans**.
 
@@ -33,8 +33,7 @@ S-12-2010 en date du 14 mai 2010.
 
 ## Le fondateur {#le-fondateur}
 
-![](adda2.jpg "Adda Keliche")
-{.float-right}
+![](/notre-ecole/adda-keliche.jpg "Adda Keliche") {.float-right}
 
 **Adda Keliche** est un expert en arts martiaux vietnamiens, reconnu Maître 6ᵉ
 Dang (Dan), fondateur de Chấn Điện Võ Đường – l’une des rares écoles
@@ -50,23 +49,24 @@ discipline intérieure et de dépassement de ses propres peurs, que les
 **pratiques liées à la santé et au bien-être** : Chi Kong, Tai Chi, méditation,
 respiration, circulation de l’énergie vitale.
 
-![Adda Keliche maniant une hallebarde](adda3.jpg)
-{.float-left}
-
 Il enseigne également le maniement des **armes traditionnelles**, et intègre à
 sa pédagogie des savoirs issus des lois universelles, de la médecine
 traditionnelle chinoise, ainsi que des techniques de massage, considérés comme
 des éléments à part entière de la pratique martiale.
 
+![Adda Keliche maniant une hallebarde](adda-keliche-2.jpg) {.float-left}
+
 Parallèlement, Adda Keliche dirige [Espace Vital](https://espacevital.fr), un
 organisme de formation spécialisé dans la gestion du stress, des conflits et des
 agressions, où il met à profit son expérience martiale au service de la
-prévention des risques psychosociaux (RPS). Formateur référencé par la CARSAT,
-il intervient dans de nombreuses structures en accompagnant les professionnels
-vers plus de maîtrise, de sécurité et d’équilibre au travail. Son double
-parcours – dans la voie martiale traditionnelle et la formation en entreprise –
-en fait une figure singulière et engagée, au carrefour de la transmission, du
-soin et de la transformation intérieure.
+prévention des risques psychosociaux (RPS).
+
+Formateur référencé par la CARSAT, il intervient dans de nombreuses structures
+en accompagnant les professionnels vers plus de maîtrise, de sécurité et
+d’équilibre au travail. Son double parcours – dans la voie martiale
+traditionnelle et la formation en entreprise – en fait une figure singulière et
+engagée, au carrefour de la transmission, du soin et de la transformation
+intérieure.
 
 ## Les grades {#les-grades}
 
@@ -149,20 +149,32 @@ chinois, _bát quái_ en sino-vietnamien ; c’est le même terme qui désigne l
 martial nommé _bát quái chưởng_). Les couleurs, les caractères chinois et leur
 emplacement dans le symbole sont signifiants.
 
+<figure class="float-left">
+  <img src="/symbole-chan-dien.jpg" usemap="#symbol-map">
+  <map name="symbol-map">
+      <area shape="poly" coords="127,40,177,27,236,38,208,105,155,106" alt="Caractère võ" title="Caractère võ: «art martial»"></area>
+      <area shape="poly" coords="42,118,70,72,118,39,145,106,111,146" alt="Caractère lễ" title="Caractère lễ: «politesse»"></area>
+      <area shape="poly" coords="39,127,25,180,36,237,109,207,104,152" alt="Caractère chấn" title="Caractère chấn: «tonnerre»"></area>
+      <area shape="poly" coords="41,245,109,215,144,249,117,320,70,290" alt="Caractère chí" title="Caractère chí: «volonté»"></area>
+      <area shape="poly" coords="154,254,128,322,184,333,232,324,205,256" alt="Caractère điện" title="Caractère điện: «éclair»"></area>
+      <area shape="poly" coords="214,253,252,215,318,244,288,290,244,322" alt="Caractère tín" title="Caractère tín: «confiance»"></area>
+      <area shape="poly" coords="255,154,322,127,334,180,323,236,254,206" alt="Caractère đường" title="Caractère đường: «école»"></area>
+      <area shape="poly" coords="215,109,243,43,290,72,320,117,251,147" alt="Caractère nghĩa" title="Caractère nghĩa: «équité»"></area>
+  </map>
+  <figcaption>Caractères du symbole de l'école: laissez le curseur de la souris sur un caractère pour voir sa signification.</figcaption>
+</figure>
+
 Les huit caractères chinois, si on les lit de haut en bas et dans le sens
 inverse des aiguilles d'une montre, signifient :
 
-[![Symbole de l'école Chấn Điện Võ Đường](/images/chandienbordnoir.jpg)](nom-et-symbole)
-{.float-left}
-
-1. **_võ_**: "art martial"
-2. _lễ_: "politesse"
-3. **_chấn_**: "tonnerre"
-4. _chí_: "volonté"
-5. **_điện_**: "éclair"
-6. _tín_: "confiance"
-7. **_đường_**: "école"
-8. _nghĩa_, "équité"
+1. **_võ_**: «art martial»
+2. _lễ_: «politesse»
+3. **_chấn_**: «tonnerre»
+4. _chí_: «volonté»
+5. **_điện_**: «éclair»
+6. _tín_: «confiance»
+7. **_đường_**: «école»
+8. _nghĩa_, «équité»
 
 <small><strong>Note</strong>: les traductions données ici sont littérales et ne
 permettent pas d'appréhender les sens multiples et profonds de chaque caractère,

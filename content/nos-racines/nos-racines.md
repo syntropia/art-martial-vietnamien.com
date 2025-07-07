@@ -2,7 +2,7 @@
 layout: article
 title: Nos racines
 subtitle: Une véritable école traditionnelle
-image: maitres-vietvodao-2.jpg
+image: maitres-vietvodao-entete.jpg
 nav:
   Les arts martiaux vietnamiens en France: "#arts-martiaux-vietnamiens-en-france"
   Maître Nguyễn Dân Phú: "#maitre-nguyen-dan-phu"
@@ -66,8 +66,7 @@ le 15 décembre 2008.
 
 ## Maître Nguyễn Dân Phú {#maitre-nguyen-dan-phu}
 
-![Photo de Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu.jpg "Maître Nguyễn Dân Phú")
-{.float-left}
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-1.jpg) {.float-left}
 
 Maître Nguyễn Dân Phú naît en 1911 dans la maison de ses ancêtres à Đa Ngưu, un
 village à 30 kilomètres de Hà Nội mais passe toute la première partie de sa vie
@@ -80,23 +79,30 @@ présenter Cự Tốn, un maître de _võ_ très renommé et lié à la famille 
 qui lui donne immédiatement sa première leçon. C’est le début d’une passion pour
 les arts martiaux que son père décide d’encourager. Il demande à ses amis
 experts qui lui rendent visite d’enseigner leur art à son fils et fait venir des
-maîtres réputés de tout le pays. Nguyễn Dân Phú aborde alors de nombreux styles
-du nord du Vietnam en majorité chinois (_Thiếu Lâm_) comme le _La Hán Quyền_ («
-boxes des 羅漢 _luóhàn_ [^1] »), le _Mai hoa Quyền_ (« boxe de la fleur de
-prunier ») ou le _Liên Hoa Quyển_ (« boxe de la fleur de lotus »). Son dernier
-maître, Nguyễn Hoa, a été l’élève de Ba Cát, un des plus célèbres maîtres de la
-fin du XIXe siècle au Vietnam. Lui et Cự Tốn, son premier maître, furent
-probablement les plus importants à ses yeux car ils personnifièrent les deux
-courants principaux des arts martiaux dans le pays, le _Thiếu Lâm_ et le _võ_
-traditionnel vietnamien (_Bình Định_ par exemple).
+maîtres réputés de tout le pays.
+
+<div class="clear"></div>
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-2.jpg) {.float-right}
+
+Nguyễn Dân Phú aborde alors de nombreux styles du nord du Vietnam en majorité
+chinois (_Thiếu Lâm_) comme le _La Hán Quyền_ (« boxes des 羅漢 _luóhàn_ [^1]
+»), le _Mai hoa Quyền_ (« boxe de la fleur de prunier ») ou le _Liên Hoa Quyển_
+(« boxe de la fleur de lotus »). Son dernier maître, Nguyễn Hoa, a été l’élève
+de Ba Cát, un des plus célèbres maîtres de la fin du XIXe siècle au Vietnam. Lui
+et Cự Tốn, son premier maître, furent probablement les plus importants à ses
+yeux car ils personnifièrent les deux courants principaux des arts martiaux dans
+le pays, le _Thiếu Lâm_ et le _võ_ traditionnel vietnamien (_Bình Định_ par
+exemple).
 
 Durant toute cette période, Nguyễn Dân Phú vit une jeunesse dorée partagée entre
 l’entraînement et ses amis, avec qui il participera à de nombreux combats entre
 pratiquants de _võ_ ou pour défendre l’honneur des jeunes filles de son
 quartier. Il acquiert ainsi une réputation d’excellent combattant à Hà Nội.
 
-![Photo de Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-sabre.jpg "Maître Nguyễn Dân Phú")
-{.float-right}
+<div class="clear"></div>
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-3.jpg) {.float-left}
 
 En 1940, il s’embarque pour la France en tant qu’interprète pour les contingents
 d’ouvriers que le gouvernement français fait venir d’Indochine pour travailler
@@ -113,6 +119,10 @@ leçons et l’étude des armes, codifiant et enrichissant ce qu’il a appris d
 jeunesse. L’école prend finalement le nom de « _Thanh Long_ », que nous
 connaissons aujourd’hui, d’après le surnom du maître : _Đại Việt Thanh Long_ («
 l’invincible dragon vert »).
+
+<div class="clear"></div>
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-4.jpg) {.float-right}
 
 Le style _Thanh Long_ se fait peu à peu connaître et se développe car les fils
 du maître ouvrent plusieurs salles dans d’autres villes. Maître Phú participe en
@@ -131,7 +141,21 @@ _Thanh Long_ et continue d’enseigner aux ceintures vertes. Jusqu’à sa
 disparition le 28 juin 1999, il n’aura cessé d’enrichir le style qu’il a créé et
 de transmettre sa passion pour les arts martiaux.
 
+<div class="clear"></div>
+
 Source: André Gazur, _Nguyễn Dân Phú_, sa vie, son œuvre.
+
+<div class="grid">
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-5.jpg)
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-6.jpg)
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-7.jpg)
+
+![Maître Nguyễn Dân Phú](maitre-nguyen-dan-phu-8.jpg)
+
+</div>
 
 [^1]: Saint bouddhiques
 

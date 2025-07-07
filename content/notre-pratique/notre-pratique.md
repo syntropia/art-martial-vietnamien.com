@@ -2,7 +2,7 @@
 layout: article
 title: Notre pratique
 subtitle: Un art martial descendant du style Thanh Long
-image: notre-pratique.jpg
+image: pratique-chan-dien.jpg
 nav:
   L'enseignement: "#presentation"
   Interne: "#interne"
@@ -59,7 +59,7 @@ veste.</small>
 
 ### Interne {#interne}
 
-![Personnes méditant au lever du soleil face à un lac](interne.jpg "Méditation au lever du soleil lors d'un stage d'été")
+![Adda et ses élèves](interne-posture.jpg "Posture ??? du quyen ???")
 {.float-right}
 
 Dans notre école, nous appelons "**interne**" le travail qui va **vers
@@ -77,7 +77,7 @@ riche que nous abordons selon plusieurs axes :
 - la **méditation** ;
 - le **_bát quái chưởng_** (八卦掌 _bāguà zhǎng_).
 
-![Enseignant dans une posture traditionnelle, les mains face au soleil](batquai.jpg "Posture de *bát quái chưởng*")
+![Pratiquants assis en méditation](interne-méditation.jpg "Méditation au coucher du soleil au bord du lac du Salagou")
 {.float-left}
 
 Notons que la notion d’_énergie_ est un des fondements de la médecine

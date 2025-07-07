@@ -2,12 +2,12 @@
 layout: index-page
 title: Chấn Điện Võ Đường
 subtitle: École traditionnelle d'arts martiaux vietnamiens
-image: /images/accueil.jpg
+image: /salut-cours-chan-dien.jpg
 ---
 
 <section class="container">
 
-![Adda Keliche, maître fondateur de l'école](/notre-ecole/adda2.jpg)
+![Adda Keliche, maître fondateur de l'école](adda-keliche-maitre-chan-dien.jpg)
 {.float-right}
 
 **Chấn Điện Võ Đường** est une **véritable école traditionnelle** qui transmet
@@ -56,7 +56,7 @@ Comme un simple loisir ou pour en faire un art de vivre, n'attendez pas et venez
 
 <div>
 
-## Il n'est jamais trop tard pour commencer ! {#decouvrez-notre-ecole}
+## Commencez même en cours d'année {#decouvrez-notre-ecole}
 
 **Nous accueillons les nouveaux élèves tout au long de l’année**, car nous
 croyons que les bienfaits d’un cours — sur le corps, l’esprit et l’équilibre
@@ -66,7 +66,7 @@ intérieur — sont plus importants que le simple nombre de techniques apprises.
 
 </div>
 
-![](/images/accueil.jpg)
+![](commencez-quand-vous-voulez.jpg)
 
 </article>
 
@@ -84,7 +84,7 @@ intérieur — sont plus importants que le simple nombre de techniques apprises.
 
 <article class="hero" data-theme="dark">
 
-![](/images/accueil.jpg)
+![](chacun-apprend-a-son-rythme.jpg)
 
 <div>
 
