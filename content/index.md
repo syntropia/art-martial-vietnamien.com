@@ -76,7 +76,8 @@ intérieur — sont plus importants que le simple nombre de techniques apprises.
 
 ### Notre école en images
 
-**👷🏼‍♂️ En cours de construction 🚧**
+**🚧 En préparation 🚧** \
+Bientôt vous pourrez découvrir ici nos plus belles photos !
 
 </section>
 
