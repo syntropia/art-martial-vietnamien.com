@@ -8,6 +8,7 @@ nav:
   Interne: "#interne"
   Externe: "#externe"
   Armes: "#armes"
+  Enfants: "#enfants"
   Les stages: "#stages"
 ---
 
@@ -137,13 +138,10 @@ L’étude de l’externe dans notre école comprend de nombreuses facettes :
 {.float-right}
 
 L’apprentissage des **armes traditionnelles** — telles que le bâton long, le
-sabre, l’épée et bien d’autres — complète l’interne et l’externe en forgeant le
-corps par un travail spécifique.
-
-L’apprentissage des armes traditionnelles — telles que le bâton long, le sabre,
-l’épée et bien d’autres — s’inscrit dans la continuité de l’[interne](#interne)
-et de l’[externe](#externe). Bien que cet enseignement puisse paraître obsolète
-et inutile de nos jours, son intérêt est au contraire multiple.
+sabre, l’épée et bien d’autres — complète l’[interne](#interne) et
+l’[externe](#externe) en forgeant le corps par un travail spécifique. Bien que
+cet enseignement puisse paraître obsolète et inutile de nos jours, son intérêt
+est au contraire multiple.
 
 Il s’agit en premier lieu de **conserver l’héritage des traditions séculaires**
 et des **techniques éprouvées sur le champ de bataille** qui ont abouti aux
@@ -208,6 +206,56 @@ Les pratiquants sont également initiés aux **bases de la médecine traditionne
 chinoise**, indispensables au travail de l’interne, au travers de **massages**
 et de **notions théoriques sur les méridiens d’acupuncture**.
 
+## Enfants {#enfants}
+
+Notre école propose des cours d’arts martiaux vietnamiens **spécialement adaptés
+aux enfants**, à partir de 5 ans.
+
+![Trois enfants d'environ 8 ans en kimono noir, en train d'exécuter une posture de coup de pied au ras du sol.](cours-enfants-1.jpg)
+{.float-left}
+
+Contrairement à de nombreuses disciplines où la compétition est au cœur de la
+pratique, notre priorité n’est pas de former des champions, mais **d’accompagner
+chaque enfant dans son développement personnel**.
+
+Nous accueillons les enfants tels qu’ils sont :
+
+- ceux qui débordent d’énergie trouvent un cadre pour canaliser leur dynamisme à
+  travers des exercices structurés, physiques et ludiques.
+
+- ceux qui manquent de confiance découvrent, grâce à la progression technique et
+  au travail collectif, qu’ils sont capables de réussir et de s’affirmer
+  sereinement.
+
+<div class="clear"></div>
+
+Notre pédagogie s’appuie sur la transmission de valeurs humaines fortes,
+essentielles dans le quotidien comme sur le tatami :
+
+- **volonté** : apprendre à persévérer, même face aux difficultés.
+
+- **respect** : des règles, des partenaires, de soi-même.
+
+- **amitié et fraternité** : développer l’entraide, la solidarité et l’écoute.
+
+- **politesse** : instaurer un climat de bienveillance et de courtoisie dans les
+  échanges.
+
+![Une vingtaine d'enfants en train de donner un coup de pied, face à l'enseignant, en extérieur dans un parc arboré](cours-enfants-2.jpg)
+
+**Notre devise : “Être fort pour être utile.”** Parce que la véritable force ne
+se mesure pas uniquement en coups, mais dans notre capacité à protéger, aider et
+inspirer les autres.
+
+Notre salut traditionnel représente cette philosophie : _une main de fer sur un
+cœur de bonté_, symbole de puissance maîtrisée et de bienveillance profonde.
+
+![Une trentaine d'enfants assis en ligne sur leurs pieds, face à l'enseignant](cours-enfants-salut.jpg)
+
+Enfin, notre emblème est le bambou, plante droite, souple et résistante, qui
+incarne la droiture, la constance et le désintéressement. Il guide notre manière
+d’enseigner, dans le respect du rythme de chaque enfant.
+
 ## Les stages {#stages}
 
 Notre école organise **plusieurs stages pendant l’année**. Nos stages **sont
@@ -260,10 +308,11 @@ On dit généralement que **ce stage équivaut à plusieurs mois de pratique**. 
 expérience inoubliable à tous les niveaux !
 
 L’**entraînement du matin** est consacré à l’[interne](#interne) — méditation,
-pratiques énergétiques selon le thème du stage, forme des animaux — et aux
-[armes](#armes-traditionnelles). L’**entraînement du soir** est, quant à lui,
-orienté vers le travail [externe](#externe) : _quyền_ de positions et _quyền_
-fédéraux.
+étude des point d'acupuncture et point vitaux, massages, chi qong, forme des
+animaux — et aux [armes](#armes-traditionnelles).
+
+L’**entraînement du soir** est, quant à lui, orienté vers le travail
+[externe](#externe) : _quyền_ de positions et _quyền_ fédéraux.
 
 ### Journée de fin d’année
 
@@ -281,5 +330,11 @@ travail commence par des exercices simples et évolue progressivement jusqu’au
 
 ### Stages de haut gradés
 
-Réservés aux ceintures noires, ces stages ont lieu une fois par mois, sur
-inscription.
+Réservés aux ceintures noires et ceintures vertes, ces stages ont lieu une fois
+par mois, sur inscription.
+
+### Cours particuliers, coaching
+
+Il est également possible de recevoir des cours particuliers ou de suivre un
+coaching spécifique selon votre situation. Rapprochez-vous de l'enseignant pour
+en savoir plus.
