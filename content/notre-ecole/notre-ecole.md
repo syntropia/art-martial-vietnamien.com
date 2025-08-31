@@ -73,30 +73,31 @@ intérieure.
 Le système de **grades** dans notre école comprend **six étapes de
 progression**.
 
+![Ceinture blanche avec quatre barettes](ceinture4cap.jpg) {.float-left}
+
 Le _võ sinh_ (pratiquant de võ, l’art martial) débute avec une **ceinture
 blanche** à laquelle on ajoute des **barrettes** — ou _cấp_ — vertes jusqu’au
-nombre de quatre ; il appartient alors au _premier cercle_.
-
-L’étape suivante et dernier grade de l’école est la **ceinture verte** ; elle
-marque l’entrée dans le _deuxième cercle_, celui des disciples.
+nombre de quatre. Il appartient alors au _premier cercle_.
 
 L’élève fait officiellement partie de l’école à partir de la première barrette,
 qui symbolise son travail et sa volonté d’apprentissage. Les barrettes
 correspondent en général à un an ou deux de pratique assidue dans le respect des
-valeurs de l’art martial. Le délai entre la quatrième barrette et la ceinture
-verte est plus long car le _võ sinh_ doit avoir formé son corps et assimilé le
-travail du premier cercle avant de pouvoir accéder à l’enseignement supérieur du
-deuxième cercle.
+valeurs de l’art martial.
 
-<div class="grid">
+Note: au-delà des grades de l'école, il est possible de passer la ceinture noire
+de la
+<abbr title="Fédération française de karaté et disciplines associées">F.F.K.D.A.</abbr>
+dès la troisième année de pratique.
 
-![Ceinture blanche avec deux barettes](ceinture2cap.jpg)
+<div class="clear"></div>
 
-![Ceinture blanche avec quatre barettes](ceinture4cap.jpg)
+![Ceinture verte](ceintureverte.jpg) {.float-right}
 
-![Ceinture verte](ceintureverte.jpg)
-
-</div>
+L’étape suivante et dernier grade de l’école est la **ceinture verte** ; elle
+marque l’entrée dans le _deuxième cercle_, celui des disciples. Le délai entre
+la quatrième barrette et la ceinture verte est plus long car le _võ sinh_ doit
+avoir formé son corps et assimilé le travail du premier cercle avant de pouvoir
+accéder à l’enseignement supérieur du deuxième cercle.
 
 ## Le nom et le symbole de notre école {#nom-et-symbole}
 
