@@ -388,11 +388,21 @@ body > footer {
         }
       }
     }
+
+    footer {
+      margin-block: 0;
+      padding-block: var(--spacing);
+
+      p {
+        margin: 0;
+      }
+    }
   }
 
   #sitemap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto;
     gap: 1rem 3rem;
 
     h6 {
@@ -486,6 +496,7 @@ small {
 
 figure {
   text-align: center;
+  overflow: visible;
   img {
     border-radius: var(--border-radius);
     max-height: 25rem;
