@@ -23,57 +23,43 @@ possible de débuter en cours d’année.
 
 <div class="grid horaires">
   <div>
-    <h3>Lundi</h3>
-    <p>
-      <strong>15h30–16h30</strong><br>
-      Gym chinoise<br>
-      <small>Séniors</small>
-    </p>
-    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
-  </div>
-  <div>
     <h3>Mardi</h3>
+    <p><a href="#gymnase-rabelais">Gymnase Rabelais</a></p>
     <p>
       <strong>20h – 22h</strong><br>
       Cours général de boxe vietnamienne<br>
       <small>Adolescents et adultes</small>
     </p>
-    <p><a href="#gymnase-rabelais">Gymnase Rabelais</a></p>
   </div>
   <div>
     <h3>Mercredi</h3>
+    <p><a href="#mpt-michel-colucci">MPT Michel Colucci</a></p>
+    <p><strong>10h - 11h</strong><br>Adolescents<br><small>(avec armes)</small></p>
+    <p><strong>11h - 12h</strong><br>Enfants<br><small>5 à 8 ans</small></p>
+    <hr>
+    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
     <p><strong>18h - 19h</strong><br>Enfants<br><small>5 à 8 ans</small></p>
     <p><strong>19h - 20h30</strong><br>Voie externe<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br><small>Adultes</small></p>
     <p><strong>20h30 - 21h30h</strong><br>Voie interne<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><br><small>Adultes</small></p>
-    <p><strong>21h30 - 22h30</strong><br>Armes traditionnelles<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><br><small>Adultes</small></p>
-    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
+    <p><strong>21h30 - 22h30</strong><br>Armes traditionnelles<br><small>Adultes</small></p>
   </div>
   <div>
     <h3>Jeudi</h3>
+    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
     <p>
       <strong>17h30 – 19h</strong><br>
       Adolescents<br>
       <small>À partir de 9 ans</small>
     </p>
-    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
-  </div>
-  <div>
-    <h3>Vendredi</h3>
-    <p>
-      <strong>12h – 14h</strong><br>
-      Cours libre<br>
-      <small>Tous niveaux</small>
-    </p>
-    <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
   </div>
   <div>
     <h3>Samedi</h3>
+    <p><a href="#gymnase-gambardella">Gymnase Gambardella</a></p>
     <p>
       <strong>9h – 10h30</strong><br>
       Voie interne<br>
       <small>Tous niveaux</small>
     </p>
-    <p><a href="#gymnase-gambardella">Gymnase Gambardella</a></p>
   </div>
 </div>
 
@@ -81,18 +67,12 @@ possible de débuter en cours d’année.
 
 Voici les dates importantes pour la **saison 2024-2025**:
 
-- <time datetime="">dimanche **8 septembre 2024**</time>: démonstrations lors de
+- <time datetime="2025-09-07">dimanche **7 septembre 2025**</time>:
+  démonstrations lors de
   l'[Antigone des associations](https://antigonedesassociations.montpellier.fr/)
-- <time datetime="2024-09-10">mardi **10 septembre 2024**</time>: reprise des
-  cours
-- <time datetime="2024-11-23">week-end du **23-24 novembre 2024**</time>: [stage
-  Chấn Điện][] (au [gymnase Gambardella](#gymnase-gambardella))
-- <time datetime="2025-02-01">week-end du **1-2 février 2025**</time>: [stage
-  Chấn Điện][] (au [gymnase Gambardella](#gymnase-gambardella))
-- <time datetime="2025-03-22">week-end du **22-23 mars 2025**</time>: [stage
-  Chấn Điện][] (au [gymnase Gambardella](#gymnase-gambardella))
-- du <time datetime="">**(date) au (date) juillet 2025**</time>: [stage d’été][]
-  (au [lac du Salagou](https://www.campinglacdusalagou.fr/))
+- <time datetime="2024-09-10">mardi **9 septembre 2025**</time>: reprise des
+  cours à 20h au [Gymnase Rabelais](#gymnase-rabelais)
+- _Prochaines dates à venir bientôt_
 
 [stage Chấn Điện]: /notre-pratique#stages-chan-dien
 [stage d’été]: /notre-pratique#stage-ete
@@ -120,6 +100,15 @@ située
 :
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.2460459682584!2d3.8479673763235267!3d43.6014183711047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ae5cb50925ef%3A0xaca37dbf7be69272!2sMaison%20pour%20tous%20Marcel-Pagnol%20-%20Quartier%20Les%20C%C3%A9vennes!5e0!3m2!1sfr!2sfr!4v1745306528392!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+### Maison pour tous Michel Colucci {#mpt-michel-colucci}
+
+Les **cours du mercredi matin** ont lieu à la
+[Maison pour tous Michel Colucci](), située
+[205 Rue Cheng du, 34070 Montpellier](https://maps.app.goo.gl/di7ozS3SCZfDcuVQ7)
+:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.619241505481!2d3.8376757118861584!3d43.59364667098444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ae6b7db223e7%3A0x6da3b1a385f4bf82!2sMaison%20pour%20tous%20Michel-Colucci%20-%20Quartier%20Croix%20d&#39;Argent!5e0!3m2!1sfr!2sfr!4v1756670745343!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### Gymnase Rabelais {#gymnase-rabelais}
 
@@ -156,5 +145,4 @@ l’enseignant au <a href="tel:06 03 59 27 58">06 03 59 27 58</a>.
 <ol class="footnotes-list">
   <li id="fn1" class="footnote-item"><p><em>Voie externe</em> : art martial<a href="#fnref1" class="footnote-backref">↩︎</a></p></li>
   <li id="fn2" class="footnote-item"><p><em>Voie interne</em> : méditation, Tai Chi, Chi Kong<a href="#fnref2" class="footnote-backref">↩︎</a></p></li>
-  <li id="fn3" class="footnote-item"><p>Les cours d'armes commencent à partir de la deuxième année de pratique.<a href="#fnref3" class="footnote-backref">↩︎</a></p></li>
 </ol>
