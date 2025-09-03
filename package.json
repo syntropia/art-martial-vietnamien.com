@@ -14,7 +14,7 @@
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
-    "sass": "^1.91.0"
+    "sass": "^1.92.0"
   },
   "prettier": {
     "semi": false,
