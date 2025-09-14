@@ -16,19 +16,20 @@
           <h1>{{title}}</h1>
           <p>{{subtitle}}</p>
         </hgroup>
-        {% if nav %}
-          <nav>
-            <ul>
-              {% for title, link in nav %}
-                <li>
-                  <a href="{{link}}">{{title}}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </nav>
-        {% endif %}
       </div>
     </header>
+
+    {% if nav %}
+      <nav id="page-menu">
+        <ul>
+          {% for title, link in nav %}
+            <li>
+              <a href="{{link}}">{{title}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
 
     <main class="container">{{content | safe}}</main>
 
