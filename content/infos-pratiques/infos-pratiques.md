@@ -34,11 +34,10 @@ possible de débuter en cours d’année.
   <div>
     <h3>Mercredi</h3>
     <p><a href="#mpt-michel-colucci">MPT Michel Colucci</a></p>
-    <p><strong>10h - 11h</strong><br>Adolescents<br><small>(avec armes)</small></p>
-    <p><strong>11h - 12h</strong><br>Enfants<br><small>5 à 8 ans</small></p>
+    <p><strong>10h - 11h</strong><br>Enfants<br><small>4 à 8 ans</small></p>
     <hr>
     <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
-    <p><strong>18h - 19h</strong><br>Enfants<br><small>5 à 8 ans</small></p>
+    <p><strong>18h - 19h</strong><br>Enfants<br><small>4 à 8 ans</small></p>
     <p><strong>19h - 20h30</strong><br>Voie externe<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br><small>Adultes</small></p>
     <p><strong>20h30 - 21h30h</strong><br>Voie interne<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><br><small>Adultes</small></p>
     <p><strong>21h30 - 22h30</strong><br>Armes traditionnelles<br><small>Adultes</small></p>
@@ -47,7 +46,7 @@ possible de débuter en cours d’année.
     <h3>Jeudi</h3>
     <p><a href="#mpt-marcel-pagnol">MPT Marcel Pagnol</a></p>
     <p>
-      <strong>17h30 – 19h</strong><br>
+      <strong>18h – 19h</strong><br>
       Adolescents<br>
       <small>À partir de 9 ans</small>
     </p>
@@ -55,6 +54,11 @@ possible de débuter en cours d’année.
   <div>
     <h3>Samedi</h3>
     <p><a href="#gymnase-gambardella">Gymnase Gambardella</a></p>
+    <p>
+      <strong>8h – 9h</strong><br>
+      Cours libre<br>
+      <small>Tous niveaux</small>
+    </p>
     <p>
       <strong>9h – 10h30</strong><br>
       Voie interne<br>
