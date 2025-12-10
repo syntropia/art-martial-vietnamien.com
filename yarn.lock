@@ -1682,7 +1682,7 @@ __metadata:
     npm-run-all2: "npm:^8.0.4"
     prettier: "npm:^3.6.2"
     rimraf: "npm:^6.1.0"
-    sass: "npm:^1.94.0"
+    sass: "npm:^1.95.1"
   languageName: unknown
   linkType: soft
 
@@ -2057,9 +2057,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.94.0":
-  version: 1.94.0
-  resolution: "sass@npm:1.94.0"
+"sass@npm:^1.95.1":
+  version: 1.95.1
+  resolution: "sass@npm:1.95.1"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -2070,7 +2070,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/e32968180d4a98b4a6468920ce77ca0428c651dbdfe139572138dc0264d8329a93d652299b1d6ffce20db3d8a4981e497a4e5c3a5e0163d47db41b1e1d913123
+  checksum: 10c0/458c65e961eb67a64b15c9e78897543f5af98b40ecd3a6a4f10d12fcf8fc17af029602ce9897ad48b1a4404083969575db28b78249e11ecdf54dbe9ea7fda594
   languageName: node
   linkType: hard
 
